@@ -950,7 +950,7 @@
 		"xpos"			"r350"//"c-235"
 		"ypos"			"c-148"
 		"wide"			"470"
-		"tall"			"200"
+		"tall"			"320"
 		"PaintBackgroundType"	"0"
 	}		
 	
