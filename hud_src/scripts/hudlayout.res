@@ -215,7 +215,7 @@
 		"xpos"	"c-250" //c0
 		"ypos"	"320"
 		"wide"		"500"
-		"tall"		"200"
+		"tall"		"320"
 		"TextFont"	"Default"	[$X360]
 	}
 
