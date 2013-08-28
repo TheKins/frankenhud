@@ -4413,7 +4413,19 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7"		"resource/TF2Modified.ttf"
+		"7"		
+		{
+			"font" "resource/TF2Modified.ttf"
+			"name" "TF2 Modified"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
 		"8"		"resource/monofont.ttf"				
 	}
 }
