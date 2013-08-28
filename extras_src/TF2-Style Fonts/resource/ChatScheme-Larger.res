@@ -772,6 +772,18 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2EP2.ttf"
-		"3"		"resource/TF2Modified.ttf"		
+		"3"		
+		{
+			"font" "resource/TF2Modified.ttf"
+			"name" "TF2 Modified"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}	
 	}
 }
