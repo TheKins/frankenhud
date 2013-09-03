@@ -318,10 +318,18 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"10"
+		"10"		
 		{
-			"font" "resource/TF2modified.ttf"
+			"font" "resource/TF2Modified.ttf"
 			"name" "TF2 Modified"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 	}
 }
