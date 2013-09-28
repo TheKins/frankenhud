@@ -65,7 +65,7 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"	"c120" //"r274"
+		"xpos"	"c115" //"r274"
 		"ypos"	"r47"
 		"wide"			"500"
 		"tall"			"100"
@@ -76,10 +76,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"	"c138"
+		"xpos"	"c134"
 		"ypos"	"r10"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"65"
+		"wide"			"68"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -90,10 +90,10 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"	"c138" //"r246"
+		"xpos"	"c134" //"r246"
 		"ypos"	"r10"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"65"
+		"wide"			"68"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -215,7 +215,7 @@
 		"xpos"	"c-250" //c0
 		"ypos"	"320"
 		"wide"		"500"
-		"tall"		"320"
+		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
 	}
 
@@ -230,6 +230,12 @@
 		"tall"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
+
+		if_vr
+		{
+			"ypos"		"370"
+			"x_offset"	"20"
+		}
 	}
 	
 	CSpectatorTargetID
@@ -255,6 +261,12 @@
 		"wide"	 	"252"
 		"tall"	 	"28"
 		"priority"	"35"
+
+		if_vr
+		{
+			"ypos"		"330"
+			"x_offset"	"20"
+		}
 	}
 	
 	BuildingStatus_Spy
@@ -439,9 +451,9 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "12"
+		"MaxDeathNotices" "10"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "11"
+		"LineHeight"	  "14"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
@@ -948,8 +960,8 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"r350"//"c-235"
-		"ypos"			"c-148"
-		"wide"			"470"
+		"ypos"			"c-154"
+		"wide"			"390"
 		"tall"			"320"
 		"PaintBackgroundType"	"0"
 	}		

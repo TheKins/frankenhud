@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"0"
+		"xpos"			"220"
 		"ypos"			"20"
 		"zpos"			"0"
 		"wide"			"470"
