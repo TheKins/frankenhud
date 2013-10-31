@@ -1310,3 +1310,4 @@
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
 	}
+}
