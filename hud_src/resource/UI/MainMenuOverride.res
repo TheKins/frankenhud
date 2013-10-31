@@ -142,6 +142,10 @@
 		{
 			"image"		"../console/title_team_halloween2012"
 		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
