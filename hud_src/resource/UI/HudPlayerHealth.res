@@ -8,7 +8,7 @@
 		"xpos"			"-5"		[$WIN32]
 		"ypos"			"r88"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"250"
+		"wide"			"500"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
@@ -250,7 +250,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
 		"xpos"			"37"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
@@ -265,7 +265,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBlastResistImage"
 		"xpos"			"37"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
@@ -280,7 +280,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallFireResistImage"
 		"xpos"			"37"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
@@ -288,6 +288,58 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
+		"fgcolor"		"TanDark"
+	}
+
+
+	"PlayerStatus_SoldierOffenseBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"fgcolor"		"TanDark"
+	}
+
+	"PlayerStatus_SoldierDefenseBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"fgcolor"		"TanDark"
+	}
+
+	"PlayerStatus_SoldierHealOnHitBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
 }
