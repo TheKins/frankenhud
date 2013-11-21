@@ -1293,7 +1293,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"130"
+		"xpos"			"c-300"
 		"ypos"			"r72"
 		
 		"TextFont"				"Default"
