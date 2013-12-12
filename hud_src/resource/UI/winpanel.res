@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0085)https://dl.dropboxusercontent.com/u/9948007/FHUD_flaminsarge/resource/UI/winpanel.res -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=US-ASCII"><style type="text/css"></style></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">"Resource/UI/winpanel.res"
+"Resource/UI/winpanel.res"
 {
 	"TeamScoresPanel"
 	{
@@ -792,4 +790,3 @@
 		"brighttext"		"0"
 	}
 }
-</pre></body></html>
