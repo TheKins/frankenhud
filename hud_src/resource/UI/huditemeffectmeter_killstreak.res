@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0106)https://dl.dropboxusercontent.com/u/9948007/fhud_flaminsarge/resource/ui/huditemeffectmeter_killstreak.res -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=US-ASCII"><style type="text/css"></style></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
 	{
@@ -104,4 +102,3 @@
 		"font"					"HudFontMedium"
 	}
 }
-</pre></body></html>

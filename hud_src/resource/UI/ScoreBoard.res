@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0087)https://dl.dropboxusercontent.com/u/9948007/FHUD_flaminsarge/resource/UI/ScoreBoard.res -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=US-ASCII"><style type="text/css"></style></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">"Resource/UI/Scoreboard.res"
+"Resource/UI/Scoreboard.res"
 {
 	"scores"
 	{
@@ -1611,4 +1609,3 @@
 		}
 	}	
 }
-</pre></body></html>
