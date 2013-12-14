@@ -1,4 +1,6 @@
-"Resource/UI/Scoreboard.res"
+
+<!-- saved from url=(0087)https://dl.dropboxusercontent.com/u/9948007/FHUD_flaminsarge/resource/UI/ScoreBoard.res -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=US-ASCII"><style type="text/css"></style></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">"Resource/UI/Scoreboard.res"
 {
 	"scores"
 	{
@@ -19,7 +21,7 @@
 		"tabPosition"		"0"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width"		"0"		[$X360]
-		"name_width"		"139"	[$WIN32]
+		"name_width"		"115"	[$WIN32]
 		"name_width"		"150"	[$X360]
 		"status_width"		"15"	[$WIN32]
 		"status_width"		"12"	[$X360]
@@ -27,19 +29,19 @@
 		"nemesis_width"		"20"	[$X360]
 		"class_width"		"15"	[$WIN32]
 		"class_width"		"20"	[$X360]
-		"score_width"		"25"
+		"score_width"		"23"
 		"score_width_lodef"	"35"
 		"score_width_hidef"	"50"
-		"ping_width"		"23"	[$WIN32]
+		"ping_width"		"21"	[$WIN32]
 		"ping_width"		"50"	[$X360]		// Larger to push the value off the edge
 	}
 	"BlueScoreBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"-3"
+		"xpos"			"-2"
 		"ypos"			"7"
-		"wide"			"309"
+		"wide"			"305"
 		"tall"			"90"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -58,9 +60,9 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"296"
+		"xpos"			"295"
 		"ypos"			"7"
-		"wide"			"304"
+		"wide"			"305"
 		"tall"			"90"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -98,7 +100,7 @@
 		if_mvm
 		{
 			"ypos"			"0"
-			"tall"			"662"
+			"tall"			"714"
 		}
 	}							
 	"BlueTeamLabel"
@@ -1609,3 +1611,4 @@
 		}
 	}	
 }
+</pre></body></html>
