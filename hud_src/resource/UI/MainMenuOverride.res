@@ -2419,7 +2419,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"r160"
+		"xpos"			"c100"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"150"
@@ -2466,7 +2466,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
-		"xpos"			"10" //"c-300"
+		"xpos"			"c-300"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"150"
