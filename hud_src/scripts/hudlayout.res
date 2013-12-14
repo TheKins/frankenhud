@@ -538,6 +538,22 @@
 
 	}
 
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"2"
+		"xpos"			"c-300"
+		"ypos"			"r72"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
+	
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
@@ -814,9 +830,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-146"
-		"ypos"					"268"
+		"ypos"					"228"
 		"wide"					"300"
-		"tall"					"215"
+		"tall"					"300"
 	}
 
 	ArenaWinPanel
@@ -1294,33 +1310,18 @@
 		"wide"			"320"
 		"tall"			"150"
 	}
-	
-	HudSpellMenu
-	{
-		"fieldName" "HudSpellMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" 	"2"
-		"xpos"			"c-300"
-		"ypos"			"r72"
-		
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
-	}
+
 
 	"CTFKillStreakNotice"
-        {
-		"fieldName"                "CTFKillStreakNotice"
-		"xpos"                        "0"                        
-		"ypos"                        "0"
-		"wide"                        "640"
-		"tall"                        "480"
-		"visible"                "1"
-		"enabled"                "1"
-		"bgcolor_override"        "0 0 0 0"
-		"PaintBackgroundType"        "0" // rounded corners
+	{
+		"fieldName"		"CTFKillStreakNotice"
+		"xpos"			"0"			
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
 	}
 }
