@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBox"
-		"xpos"			"-1"
+		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"-10"
 		"wide"			"350"
@@ -111,9 +111,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"bgcolor_override"	"0 0 0 0"
+		"fillcolor"	"0 0 0 127"
+		"PaintBackgroundType" "0"
 		
-		"border"		"MainMenuBGBorder"
+//		"border"		"MainMenuBGBorder"
 	}
 	
 	"class_item_red_1"

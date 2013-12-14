@@ -321,10 +321,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"0 0 0 0"
+		"fillcolor"		"0 0 0 90"
+		"PaintBackgroundType"	"0"
 		
-		"border"		"MainMenuBGBorder"
+//		"border"		"MainMenuBGBorder"
 	}
 	"ShadedBar"
 	{
