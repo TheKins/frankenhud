@@ -21,7 +21,7 @@
 		"ypos"		"0"
 		"zpos"		"4"
 		"wide"		"33"
-		"tall"		"33"
+		"tall"		"29"
 		"visible"	"1"
 		"enabled"	"1"
 	}	
