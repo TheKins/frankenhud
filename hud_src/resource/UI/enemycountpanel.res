@@ -70,7 +70,7 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
-		"ypos"			"18"
+		"ypos"			"16"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"14"
