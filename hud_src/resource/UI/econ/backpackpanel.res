@@ -57,6 +57,9 @@
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 			
+			"deferred_description"	"1"
+			"deferred_icon"			"1"
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -257,11 +260,11 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"text_ypos"			"20"
+		"text_ypos"			"10"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"15"
+		"padding_height"	"10"
 		
 		"attriblabel"
 		{
@@ -342,7 +345,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
+		"xpos"			"c221"
 		"ypos"			"290"
 		"zpos"			"1"
 		"wide"			"40"
@@ -376,7 +379,39 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
+	
+	"PrevPageButtonArrow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PrevPageButtonArrow"
+		"xpos"			"c215"
+		"ypos"			"295"
+		"zpos"			"1"
+		"wide"			"10"
+		"tall"			"10"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"<"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+	}
+	"NextPageButtonArrow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NextPageButtonArrow"
+		"xpos"			"c257"
+		"ypos"			"295"
+		"zpos"			"1"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		">"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+	}	
 	
 	"DragToNextPageButton"
 	{
