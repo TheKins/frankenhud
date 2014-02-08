@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
-		"xpos"			"c-184"
+		"xpos"			"c-209"
 		"ypos"			"95"
 		"zpos"			"1"
 		"wide"			"420"
@@ -50,7 +50,7 @@
 		"ControlName"	"CTFRichText"
 		"fieldName"		"TFTextMessage"
 		"font"			"ChalkboardText"
-		"xpos"			"c-184"
+		"xpos"			"c-209"
 		"ypos"			"125"
 		"zpos"			"1"
 		"wide"			"415"
@@ -68,7 +68,7 @@
 	{
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
-		"xpos"			"c-320"
+		"xpos"			"c-345"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"640"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"		"CTFButton"
 		"fieldName"		"ok"
-		"xpos"			"c130"
+		"xpos"			"c105"
 		"ypos"			"r105"
 		"zpos"			"6"
 		"wide"			"100"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"c-190"
+		"xpos"			"c-215"
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"430"

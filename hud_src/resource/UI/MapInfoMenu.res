@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
-		"xpos"			"c-184"
+		"xpos"			"c-209"
 		"xpos_lodef"			"c-174"	
 		"xpos_hidef"			"c-174"
 		"ypos"			"95"
@@ -41,7 +41,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
-		"xpos"			"c-184"
+		"xpos"			"c-209"
 		"xpos_lodef"			"c-174"
 		"xpos_hidef"			"c-174"
 		"ypos"			"125"
@@ -64,7 +64,7 @@
 		"ControlName"	"CTFRichText"
 		"fieldName"		"MapInfoText"
 		"font"			"ChalkboardText"
-		"xpos"			"c-184"
+		"xpos"			"c-209"
 		"xpos_lodef"			"c-174"
 		"xpos_hidef"			"c-174"
 		"ypos"			"160"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"c10"
+		"xpos"			"c-15"
 		"xpos_lodef"			"c35"
 		"xpos_hidef"			"c35"
 		"ypos"			"75"
@@ -112,7 +112,7 @@
 	{
 		"ControlName"		"CTFButton"
 		"fieldName"		"ok"
-		"xpos"			"c130"
+		"xpos"			"c105"
 		"ypos"			"r105"
 		"zpos"			"6"
 		"wide"			"100"
@@ -136,7 +136,7 @@
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-35"
+		"xpos"			"c-50"
 		"ypos"			"r105"
 		"zpos"			"6"
 		"wide"			"100"
@@ -159,7 +159,7 @@
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"c-180"
+		"xpos"			"c-205"
 		"ypos"			"r105"
 		"zpos"			"6"
 		"wide"			"100"
@@ -181,7 +181,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"c-190"
+		"xpos"			"c-215"
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"430"

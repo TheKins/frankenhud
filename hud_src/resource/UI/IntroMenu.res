@@ -34,7 +34,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
-		"xpos"			"c130"
+		"xpos"			"c105"
 		"ypos"			"r105"
 		"zpos"			"6"
 		"wide"			"100"
@@ -58,7 +58,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Continue"
-		"xpos"			"c130"
+		"xpos"			"c105"
 		"ypos"			"r105"
 		"zpos"			"6"
 		"wide"			"100"
@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Back"
-		"xpos"			"c-180"
+		"xpos"			"c-205"
 		"ypos"			"r105"
 		"zpos"			"6"
 		"wide"			"100"
@@ -104,7 +104,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
-		"xpos"			"c-180"
+		"xpos"			"c-205"
 		"ypos"			"r105"
 		"zpos"			"6"
 		"wide"			"100"
@@ -126,7 +126,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBG2"
-		"xpos"			"c-190"
+		"xpos"			"c-215"
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"430"
@@ -218,7 +218,7 @@
 	{
 		"ControlName"	"CTFVideoPanel"
 		"fieldName"		"VideoPanel"
-		"xpos"			"c-120"
+		"xpos"			"c-145"
 		"ypos"			"c-163"
 		"zpos"			"3"		
 		"wide"			"300"
@@ -235,7 +235,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VideoCaption"
-		"xpos"			"c-120"
+		"xpos"			"c-145"
 		"ypos"			"c60"
 		"zpos"			"6"
 		"wide"			"295"
