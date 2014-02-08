@@ -467,6 +467,8 @@
 
 		"BaseBackgroundColor"	"46 43 42 200"		[$WIN32]
 		"LocalBackgroundColor"	"255 255 255 200"	[$WIN32]
+		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
+		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
 
 	HudVehicle
