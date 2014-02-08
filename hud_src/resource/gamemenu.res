@@ -120,7 +120,8 @@
 	{
 		"label" ""
 		"command"	"engine open_charinfo_backpack"
-		"subimage"	"../hud/backpack_01_grey"
+//		"subimage"	"../hud/backpack_01_grey"
+		"subimage"	"spellbook_stealth"
 		"tooltip"	"#BackpackExplanation_Title"
 	}
 	"CharacterSetupCraftingButton"
@@ -134,7 +135,7 @@
 	{
 		"label" ""
 		"command"	"opentf2options"
-		"subimage"	"class_icons/filter_all_on"
+		"subimage"	"glyph_multiplayer"
 		"tooltip"	"#MMenu_AdvOptions"
 	}
 }
