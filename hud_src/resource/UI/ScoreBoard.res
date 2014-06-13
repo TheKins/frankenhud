@@ -597,7 +597,7 @@
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"85"
-		"ypos"			"377"
+		"ypos"			"375"
 		"zpos"			"3"
 		"wide"			"455"
 		"tall"			"20"
@@ -633,7 +633,26 @@
 		{
 			"visible"		"1"
 		}
-	}								
+	}
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"ScoreboardMedium"
+		"labelText"		"%mapname%"
+		"textAlignment"		"east"
+		"xpos"			"415"
+//		"xpos_lodef"		"105"
+		"ypos"			"375"
+		"zpos"			"3"
+		"wide"			"165"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"236 227 203 255"
+	}
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -673,8 +692,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 		if_mvm
 		{
@@ -803,25 +822,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}	
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"ScoreboardMedium"
-			"labelText"		"%mapname%"
-			"textAlignment"		"east"
-			"xpos"			"435"
-			"xpos_lodef"		"105"
-			"ypos"			"22"
-			"zpos"			"3"
-			"wide"			"145"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"236 227 203 255"
-		}	
 		"GameType"
 		{
 			"ControlName"	"CExLabel"
@@ -837,8 +837,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"fgcolor"		"185 177 153 255"
 		}							
 		"Assists"
@@ -1153,11 +1153,12 @@
 			"fieldName"		"BackstabsLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
-			"textAlignment"		"north-east"
+			"textAlignment"		"east"
 			"xpos"			"445"	[$WIN32]
-			"ypos"			"5"	[$WIN32]
+			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
-			"wide"			"110"
+			"wide"			"95"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1169,9 +1170,9 @@
 			"fieldName"		"Backstabs"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%backstabs%"
-			"textAlignment"		"north-west"		[$WIN32]
-			"xpos"			"560"	[$WIN32]
-			"ypos"			"5"	[$WIN32]
+			"textAlignment"		"west"		[$WIN32]
+			"xpos"			"545"	[$WIN32]
+			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1186,12 +1187,13 @@
 			"fieldName"		"BonusLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
-			"textAlignment"		"north-east"
+			"textAlignment"		"east"
 			"xpos"			"445"	[$WIN32]
-			"ypos"			"15"	[$WIN32]
+			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
-			"wide"			"110"
+			"wide"			"95"
+			"tall"			"20"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1203,9 +1205,9 @@
 			"fieldName"		"Bonus"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%bonus%"
-			"textAlignment"		"north-west"		[$WIN32]
-			"xpos"			"560"	[$WIN32]
-			"ypos"			"15"	[$WIN32]
+			"textAlignment"		"west"		[$WIN32]
+			"xpos"			"545"	[$WIN32]
+			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
