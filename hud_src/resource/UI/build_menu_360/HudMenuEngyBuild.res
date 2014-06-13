@@ -84,7 +84,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontMediumBold"
-		"xpos"			"-41"			// align me to the left edge of the first selection
+		"xpos"			"-36"			// align me to the left edge of the first selection
 		"ypos"			"-6"
 		"zpos"			"2"
 		"wide"			"300"
@@ -106,7 +106,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"Black"
-		"xpos"			"-40"			// align me to the left edge of the first selection
+		"xpos"			"-35"			// align me to the left edge of the first selection
 		"ypos"			"-5"
 		"zpos"			"1"
 		"wide"			"300"
@@ -406,7 +406,7 @@
 		"fieldName"		"BuildHintLabel_Dim"
 		"font"			"ItemFontNameSmall"
 		"fgcolor"		"TanDark"
-		"xpos"			"150"
+		"xpos"			"185"
 		"ypos"			"80"
 		"zpos"			"1"
 		"wide"			"300"

@@ -127,7 +127,7 @@
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"active_item_1"
-		"xpos"			"8"
+		"xpos"			"5"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"60"
@@ -139,7 +139,7 @@
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"active_item_2"
-		"xpos"			"63"
+		"xpos"			"60"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"60"
@@ -151,7 +151,7 @@
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"active_item_3"
-		"xpos"			"116"
+		"xpos"			"115"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"60"
@@ -163,7 +163,7 @@
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"active_item_4"
-		"xpos"			"168"
+		"xpos"			"170"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"60"
@@ -175,7 +175,7 @@
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"inactive_item_1"
-		"xpos"			"8"
+		"xpos"			"5"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"60"
@@ -187,7 +187,7 @@
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"inactive_item_2"
-		"xpos"			"63"
+		"xpos"			"60"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"60"
@@ -199,7 +199,7 @@
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"inactive_item_3"
-		"xpos"			"116"
+		"xpos"			"115"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"60"
@@ -211,13 +211,62 @@
 	{
 		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"inactive_item_4"
-		"xpos"			"168"
+		"xpos"			"170"
+		"ypos"			"25"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"100"
+		"visible"		"1"
+	}
+
+	"unavailable_item_1"
+	{
+		"ControlName"	"CEngyDestroyMenuItem"
+		"fieldName"		"unavailable_item_1"
+		"xpos"			"5"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"100"
 		"visible"		"1"
 	}	
+	
+	"unavailable_item_2"
+	{
+		"ControlName"	"CEngyDestroyMenuItem"
+		"fieldName"		"unavailable_item_2"
+		"xpos"			"60"
+		"ypos"			"25"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"100"
+		"visible"		"1"
+	}	
+	
+	"unavailable_item_3"
+	{
+		"ControlName"	"CEngyDestroyMenuItem"
+		"fieldName"		"unavailable_item_3"
+		"xpos"			"115"
+		"ypos"			"25"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"100"
+		"visible"		"1"
+	}	
+	
+	"unavailable_item_4"
+	{
+		"ControlName"	"CEngyDestroyMenuItem"
+		"fieldName"		"unavailable_item_4"
+		"xpos"			"170"
+		"ypos"			"25"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"100"
+		"visible"		"1"
+	}
+
 	"TeamColoredBar"
 	{
 		"ControlName"	"CTFImagePanel"
