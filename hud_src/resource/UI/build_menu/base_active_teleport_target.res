@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"FalloutNormal"
+		"font"			"Default"
 		"xpos"			"-15"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -19,7 +19,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
 	}
 
 	"ItemBackground"
@@ -35,7 +34,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"BuildingIcon"	
@@ -43,7 +42,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
 		"xpos"			"10"
-		"ypos"			"25"
+		"ypos"			"20"
 		"zpos"			"2"
 		"wide"			"35"
 		"tall"			"35"
@@ -51,42 +50,26 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
-	"MetalIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"13"
-		"ypos"			"13"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"0 255 0 255"
-	}
-	
-	"CostLabel"
+	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"CostLabel"
-		"font"			"FalloutCost"
-		"fgcolor"		"0 255 0 255"
-		"xpos"			"26"
-		"ypos"			"12"
+		"fieldName"		"ModeLabel"
+		"font"			"DefaultSmall"
+		"fgcolor"		"TanDarker"
+		"xpos"			"33"
+		"ypos"			"17"
 		"zpos"			"1"
-		"wide"			"84"
+		"wide"			"44"
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"labelText"		""
+		"textAlignment"	"East"	
 	}
 	
 	"NumberBg"	
@@ -102,14 +85,14 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"FalloutCost"
+		"font"			"HudMenuNumberFont"
 		"fgcolor"		"Black"
 		"xpos"			"-22"
 		"ypos"			"61"

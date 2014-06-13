@@ -154,7 +154,7 @@
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "TanDark"
+		//"selectedFgColor_override" "TanDark"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -233,7 +233,7 @@
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "TanDark"
+		//"selectedFgColor_override" "TanDark"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -903,6 +903,7 @@
 
 		"stayselectedonclick"	"0"
 		"keyboardinputenabled"	"1"
+		"selectonhover"	"1"
 
 		"SubImage"
 		{

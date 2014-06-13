@@ -64,7 +64,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"437"
+		"ypos"			"436"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"

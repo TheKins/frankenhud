@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/build_menu/base_unavailable.res"
 {
 	"ItemNameLabel"
 	{	
@@ -10,7 +10,7 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -19,10 +19,10 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"	"0 255 0 255"
 	}
-
-	"ItemBackground"
+	
+	"ItemBackground"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -34,61 +34,50 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg"
+		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"0 0 0 255"
 	}
 	
-	"BuildingIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildingIcon"
-		"xpos"			"10"
-		"ypos"			"25"
-		"zpos"			"2"
-		"wide"			"35"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"0 255 0 255"
-	}
-	
-	"MetalIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"13"
-		"ypos"			"13"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"0 255 0 255"
-	}
-	
-	"CostLabel"
+	"CantBuildReason"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"CostLabel"
-		"font"			"FalloutCost"
+		"fieldName"		"CantBuildReason"
+		"font"			"FalloutNormal"
+		"xpos"			"-13"
+		"ypos"			"31"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Build_Unavailable"
+		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
-		"xpos"			"26"
-		"ypos"			"12"
+	}
+
+	"ModeLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"ModeLabel"
+		"font"			"DefaultSmall"
+		"fgcolor"		"TanDark"
+		"xpos"			"33"
+		"ypos"			"17"
 		"zpos"			"1"
-		"wide"			"84"
+		"wide"			"44"
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"labelText"		""
+		"textAlignment"	"East"	
 	}
-	
+		
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -109,7 +98,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"FalloutCost"
+		"font"			"HudMenuNumberFont"
 		"fgcolor"		"Black"
 		"xpos"			"-22"
 		"ypos"			"61"

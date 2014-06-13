@@ -54,39 +54,23 @@
 		"iconColor"		"0 255 0 255"
 	}
 	
-	"MetalIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"13"
-		"ypos"			"13"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"0 255 0 255"
-	}
-	
-	"CostLabel"
+	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"CostLabel"
-		"font"			"FalloutCost"
-		"fgcolor"		"0 255 0 255"
-		"xpos"			"26"
-		"ypos"			"12"
+		"fieldName"		"ModeLabel"
+		"font"			"DefaultSmall"
+		"fgcolor"		"TanDarker"
+		"xpos"			"33"
+		"ypos"			"17"
 		"zpos"			"1"
-		"wide"			"84"
+		"wide"			"44"
 		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"labelText"		""
+		"textAlignment"	"East"	
 	}
 	
 	"NumberBg"	
