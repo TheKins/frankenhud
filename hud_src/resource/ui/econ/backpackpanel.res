@@ -541,31 +541,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
-	// "StyleButton"
-	// {
-		// "ControlName"	"CExButton"
-		// "fieldName"		"StyleButton"
-		// "xpos"			"c50"
-		// "ypos"			"290"
-		// "zpos"			"20"
-		// "wide"			"100"
-		// "tall"			"20"
-		// "autoResize"	"0"
-		// "pinCorner"		"0"
-		// "visible"		"1"
-		// "enabled"		"0"
-		// "tabPosition"	"0"
-		// "labelText"		"#Style"
-		// "font"			"HudFontSmallBold"
-		// "textAlignment"	"center"
-		// "textinsetx"	"50"
-		// "dulltext"		"0"
-		// "brighttext"	"0"
-		// "Command"		"showstyles"
-		// "sound_depressed"	"UI/buttonclick.wav"
-		// "sound_released"	"UI/buttonclickrelease.wav"
-	// }
-
 	"DetailsButton"
 	{
 		"ControlName"	"CExButton"
