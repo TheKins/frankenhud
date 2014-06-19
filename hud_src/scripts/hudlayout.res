@@ -1344,12 +1344,12 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
+		"xpos"			"r170"
+		"ypos"			"c-154"
+		//"ypos_hidef"	"c-42"
+		//"ypos_lodef"	"c-42"
+		"wide"			"390"
+		"tall"			"320"
 		"PaintBackgroundType"	"0"
 	}
 }
