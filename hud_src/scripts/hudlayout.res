@@ -1177,9 +1177,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r40"
+		"ypos"					"r50"
 		"wide"					"f0"
-		"tall"					"50"
+		"tall"					"30"
 	}
 
 	"HudAchievementTracker"
@@ -1344,7 +1344,7 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"r170"
+		"xpos"			"r130"
 		"ypos"			"c-154"
 		//"ypos_hidef"	"c-42"
 		//"ypos_lodef"	"c-42"
