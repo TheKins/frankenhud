@@ -977,7 +977,7 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"r233"
+		"xpos"			"r143"
 		"ypos"			"195"
 		"wide"			"150"
 		"tall"			"140"
