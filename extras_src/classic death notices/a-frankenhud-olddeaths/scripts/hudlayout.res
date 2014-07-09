@@ -41,7 +41,7 @@
 		"xpos"	"c-100"
 		"ypos"	"r48"
 		"wide"	"200"
-		"tall"	"40"
+		"tall"	"55"
 
 		"blue_active_xpos"			"0"
 		"red_active_xpos"			"106"
@@ -1339,18 +1339,17 @@
 		"PaintBackgroundType"	"0" // rounded corners
 	}
 
-	"CTFFlagCalloutPanel"
-        {
-                "fieldName"                "CTFFlagCalloutPanel"
-                "visible"                 "0"
-                "enabled"                 "1"
-                "xpos"                        "0"
-                "ypos"                        "0"
-                "wide"                         "40"
-                "tall"                         "40"
-                "priority"                "40"
-        }
-
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible"		"0"
+		"enabled"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"40"
+		"tall"			"40"
+		"priority"		"40"
+	}
 
 	"HudMenuTauntSelection"
 	{
