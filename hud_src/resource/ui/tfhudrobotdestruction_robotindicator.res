@@ -6,9 +6,9 @@
 		"ControlName"			"EditablePanel"
 		"proportionalToParent"	"1"
 		"xpos"					"0"
-		"ypos"					"r30"
-		"wide"					"30"
-		"tall"					"30"
+		"ypos"					"r25"
+		"wide"					"20"
+		"tall"					"20"
 		"visible"				"0"
 
 		"DeadState"
@@ -18,9 +18,9 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"5"
-			"wide"					"30"
-			"tall"					"30"
-			"scaleimage"			"1"
+			"wide"					"20"
+			"tall"					"20"
+			"scaleimage"			"0"
 			"visible"				"1"
 		}
 
@@ -31,8 +31,8 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"6"
-			"wide"					"30"
-			"tall"					"30"
+			"wide"					"20"
+			"tall"					"20"
 			"scaleimage"			"1"
 			"visible"				"1"
 		}
@@ -44,8 +44,8 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"5"
-			"wide"					"30"
-			"tall"					"30"
+			"wide"					"20"
+			"tall"					"20"
 			"scaleimage"			"1"
 			"visible"				"1"
 		}

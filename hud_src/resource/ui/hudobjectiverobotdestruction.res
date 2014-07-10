@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusRobotDestruction"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"10"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -22,7 +22,7 @@
 			"ControlName"	"CTFHudRobotDestruction_RobotIndicator"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"30"
+			"wide"			"20"
 			"tall"			"300"
 			"visible"		"1"
 			"bgcolor_override"		"0 0 0 0"
@@ -38,7 +38,7 @@
 			"xpos"			"0"
 			"ypos"			"r35"
 			"zpos"			"0"
-			"wide"			"100"
+			"wide"			"1000"
 			"tall"			"4"
 			"visible"		"0"
 			"enabled"		"1"
@@ -53,12 +53,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"ypos"			"r36"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -67,7 +64,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		
 		"if_hybrid"
 		{
@@ -89,20 +86,21 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
+		"xpos"			"c-42"	[$WIN32]
+		"ypos"			"r29"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
-		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"84"	[$WIN32]
+		"tall"			"17"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"	
+		
+		"src_corner_height"	"60"				// pixels inside the image
+		"src_corner_width"	"60"
+		
+		"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"	
 		
 		"if_hybrid"
 		{
@@ -124,11 +122,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"c-50"
-		"ypos"				"r137"
+		"xpos"				"c-35"
+		"ypos"				"r90"
 		"zpos"				"1"
-		"wide"				"100"
-		"tall"				"100"
+		"wide"				"60"
+		"tall"				"60"
 		"visible"			"0"
 		"enabled"			"1"
 		"bgcolor_override"		"0 0 0 0"
@@ -137,11 +135,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"CarriedImage"
-			"xpos"			"c-50"
+			"xpos"			"c-25"
 			"ypos"			"0"
 			"zpos"			"10"
-			"wide"			"100"
-			"tall"			"100"
+			"wide"			"60"
+			"tall"			"60"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/objectives_flagpanel_carried_red"
@@ -153,7 +151,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FlagValue"
-			"xpos"			"c-50"
+			"xpos"			"c-35"
 			"ypos"			"15"
 			"zpos"			"11"
 			"wide"			"100"
@@ -164,9 +162,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"HudFontBig"
-			"font_hidef"	"HudFontGiant"
-			"font_lodef"	"HudFontGiant"
+			"font"			"HudFontMediumBold"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -175,9 +171,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FlagValueShadow"
-			"xpos"			"c-49"
+			"xpos"			"c-34"
 			"ypos"			"16"
-			"zpos"			"11"
+			"zpos"			"10"
 			"wide"			"100"
 			"tall"			"35"
 			"tall_hidef"	"100"
@@ -186,9 +182,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"HudFontBig"
-			"font_hidef"	"HudFontGiant"
-			"font_lodef"	"HudFontGiant"
+			"font"			"HudFontMediumBold"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
 		}
@@ -201,7 +195,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"55"
+		"wide"				"45" //55
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -212,10 +206,10 @@
 			"fieldName"				"BackgroundImage"
 			"ControlName"			"ImagePanel"
 			"xpos"					"0"
-			"ypos"					"70"
+			"ypos"					"75"
 			"zpos"					"0"
-			"wide"					"55"
-			"tall"					"30"
+			"wide"					"45"
+			"tall"					"20"
 			"scaleimage"			"1"
 			"visible"				"1"
 			"Image"					"../HUD/obj_ellipse_blue"
@@ -225,7 +219,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Score"
-			"xpos"			"0"
+			"xpos"			"-5"
 			"ypos"			"68"
 			"zpos"			"8"
 			"wide"			"55"
@@ -234,7 +228,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%score%"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontTimer"
 			"fgcolor"		"TanLight"
 		}	
 		
@@ -247,7 +241,7 @@
 			"zpos"			"7"
 			"wide"			"55"
 			"tall"			"35"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%score%"
@@ -385,7 +379,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"55"
+		"wide"				"45"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -396,10 +390,10 @@
 			"fieldName"				"BackgroundImage"
 			"ControlName"			"ImagePanel"
 			"xpos"					"0"
-			"ypos"					"70"
+			"ypos"					"75"
 			"zpos"					"0"
-			"wide"					"55"
-			"tall"					"30"
+			"wide"					"45"
+			"tall"					"20"
 			"scaleimage"			"1"
 			"visible"				"1"
 			"Image"					"../HUD/obj_ellipse_red"
@@ -409,7 +403,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Score"
-			"xpos"			"0"
+			"xpos"			"-5"
 			"ypos"			"68"
 			"zpos"			"8"
 			"wide"			"55"
@@ -418,9 +412,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%score%"
-			"font"			"HudFontMediumBold"
-			"font_hidef"	"HudFontGiant"
-			"font_lodef"	"HudFontGiant"
+			"font"			"HudFontTimer"
 			"fgcolor"		"TanLight"		
 		}	
 		
@@ -433,7 +425,7 @@
 			"zpos"			"7"
 			"wide"			"55"
 			"tall"			"35"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%score%"
