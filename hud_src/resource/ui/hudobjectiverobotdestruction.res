@@ -255,6 +255,100 @@
 				"proportionalToParent"	"1"
 			}
 
+			"BlueVictoryContainer"
+			{
+				"fieldName"				"BlueVictoryContainer"
+				"ControlName"			"EditablePanel"
+				"xpos"					"30"
+				"ypos"					"22"
+				"zpos"					"5"
+				"wide"					"f0"
+				"tall"					"f0"
+				"visible"				"0"
+				"enabled"				"1"
+				"proportionalToParent"	"1"
+
+				"VictoryLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"VictoryLabel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"8"
+					"wide"			"90"
+					"tall"			"35"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"west"	
+					"labelText"		"#TF_RD_BlueFinale"
+					"font"			"HudFontSmallBold"
+					"fgcolor"		"TanLight"		
+					"proportionalToParent"	"1"
+				}
+
+				"VictoryLabelShadow"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"VictoryLabelShadow"
+					"xpos"			"1"
+					"ypos"			"1"
+					"zpos"			"7"
+					"wide"			"90"
+					"tall"			"35"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"west"	
+					"labelText"		"#TF_RD_BlueFinale"
+					"font"			"HudFontSmallBold"
+					"fgcolor"		"Black"		
+					"proportionalToParent"	"1"
+				}
+
+				"VictoryLabelTime"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"VictoryLabelTime"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"8"
+					"wide"			"55"
+					"tall"			"35"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"west"	
+					"labelText"		"%victorytime%"
+					"font"			"HudFontSmallBold"
+					"fgcolor"		"TanLight"		
+					"proportionalToParent"	"1"
+
+					"pin_to_sibling"               "VictoryLabel"
+					"pin_corner_to_sibling"        "7"          
+					"pin_to_sibling_corner"        "5"  
+				}
+
+				"VictoryLabelTimeShadow"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"VictoryLabelTimeShadow"
+					"xpos"			"1"
+					"ypos"			"1"
+					"zpos"			"7"
+					"wide"			"55"
+					"tall"			"35"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"west"	
+					"labelText"		"%victorytime%"
+					"font"			"HudFontSmallBold"
+					"fgcolor"		"Black"		
+					"proportionalToParent"	"1"
+
+					"pin_to_sibling"               "VictoryLabel"
+					"pin_corner_to_sibling"        "7"          
+					"pin_to_sibling_corner"        "5"  
+				}
+			}
+
 			"BlueProgressBarFill"
 			{
 				"fieldName"				"BlueProgressBarFill"
@@ -276,8 +370,8 @@
 				"standard_color"		"84  111 127 255"
 				"bright_color"			"110 159 189 255"
 				"left_to_right"			"0"
-				"blink_threshold"		"0.85"
-				"blink_rate"			"3"
+				"blink_threshold"		"1.0"
+				"blink_rate"			"10"
 			}
 
 			"BlueProgressBarEscrow"
@@ -305,6 +399,100 @@
 				"blink_rate"			"20"
 			}
 
+			"RedVictoryContainer"
+			{
+				"fieldName"				"RedVictoryContainer"
+				"ControlName"			"EditablePanel"
+				"xpos"					"30"
+				"ypos"					"22"
+				"zpos"					"5"
+				"wide"					"f0"
+				"tall"					"f0"
+				"visible"				"0"
+				"enabled"				"1"
+				"proportionalToParent"	"1"
+
+				"VictoryLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"VictoryLabel"
+					"xpos"			"140"
+					"ypos"			"0"
+					"zpos"			"8"
+					"wide"			"85"
+					"tall"			"35"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"west"	
+					"labelText"		"#TF_RD_RedFinale"
+					"font"			"HudFontSmallBold"
+					"fgcolor"		"TanLight"		
+					"proportionalToParent"	"1"
+				}
+
+				"VictoryLabelShadow"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"VictoryLabelShadow"
+					"xpos"			"141"
+					"ypos"			"1"
+					"zpos"			"7"
+					"wide"			"85"
+					"tall"			"35"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"west"	
+					"labelText"		"#TF_RD_RedFinale"
+					"font"			"HudFontSmallBold"
+					"fgcolor"		"Black"		
+					"proportionalToParent"	"1"
+				}
+
+				"VictoryLabelTime"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"VictoryLabelTime"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"8"
+					"wide"			"55"
+					"tall"			"35"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"west"	
+					"labelText"		"%victorytime%"
+					"font"			"HudFontSmallBold"
+					"fgcolor"		"TanLight"		
+					"proportionalToParent"	"1"
+
+					"pin_to_sibling"               "VictoryLabel"
+					"pin_corner_to_sibling"        "7"          
+					"pin_to_sibling_corner"        "5"  
+				}
+
+				"VictoryLabelTimeShadow"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"VictoryLabelTimeShadow"
+					"xpos"			"1"
+					"ypos"			"1"
+					"zpos"			"7"
+					"wide"			"55"
+					"tall"			"35"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"west"	
+					"labelText"		"%victorytime%"
+					"font"			"HudFontSmallBold"
+					"fgcolor"		"Black"		
+					"proportionalToParent"	"1"
+
+					"pin_to_sibling"               "VictoryLabel"
+					"pin_corner_to_sibling"        "7"          
+					"pin_to_sibling_corner"        "5"  
+				}
+			}
+
 			"RedProgressBarFill"
 			{
 				"fieldName"				"RedProgressBarFill"
@@ -326,8 +514,8 @@
 				"standard_color"		"171 59 59 255"
 				"bright_color"			"222 65 65 255"
 				"left_to_right"			"1"
-				"blink_threshold"		"0.85"
-				"blink_rate"			"3"
+				"blink_threshold"		"1.0"
+				"blink_rate"			"10"
 			}
 
 			"RedProgressBarEscrow"
@@ -361,7 +549,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
 			"xpos"				"80"
-			"ypos"				"r45"
+			"ypos"				"r48"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -416,7 +604,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
 			"xpos"				"r140"
-			"ypos"				"r45"
+			"ypos"				"r48"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
