@@ -148,7 +148,7 @@
 		}
 		if_halloween_3
 		{
-			"image"                "../console/title_team_halloween2014"
+			"image"		"../console/title_team_halloween2014"
 		}
 		if_fullmoon
 		{

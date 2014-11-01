@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
-		"xpos"			"c-300"
+		"xpos"			"cs-0.5"
 		"xpos_lodef"	"34"
 		"xpos_hidef"	"4"
 		"ypos"			"31"

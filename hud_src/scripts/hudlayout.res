@@ -1365,14 +1365,15 @@
 		"PaintBackgroundType"	"0"
 	}
 
-	"HudMiniGame"
+
+	HudMiniGame
 	{
 		"fieldName" "HudMiniGame"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"        "0"
-		"ypos"        "0"
-		"wide"        "f0"
-		"tall"        "480"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 }

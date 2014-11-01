@@ -1,5 +1,13 @@
 "Resource/UI/FreezePanel_Basic.res"
 {
+	"FreezePanel"
+	{
+		"ControlName"	"CTFFreezePanel"
+		"fieldName"		"FreezePanel"
+
+		"screenshot_move_panel_to_corner"	"1"
+	}
+
 	"FreezePanelBase"	[$X360]
 	{
 		"ControlName"	"EditablePanel"
@@ -188,7 +196,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
