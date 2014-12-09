@@ -7,7 +7,7 @@
 		"xpos"			"0"		[$WIN32]
 		"ypos"			"0"		[$WIN32]
 		"zpos"			"3"
-		"wide"			"250"
+		"wide"			"280"
 		"tall"			"29"
 		"visible"		"0"
 		"enabled"		"1"	
@@ -22,7 +22,7 @@
 		"labeltext"		""
 		"xpos"			"5"
 		"ypos"			"0"
-		"wide"			"200"
+		"wide"			"270"
 		"tall"			"10"
 		"zpos"			"4"
 		"fgcolor_override"		"235 226 202 128"
@@ -37,7 +37,7 @@
 		"labeltext"		""
 		"xpos"			"5"
 		"ypos"			"0"
-		"wide"			"170"
+		"wide"			"270"
 		"tall"			"10"
 		"zpos"			"4"
 		"fgcolor_override"		"235 226 202 128"
@@ -53,7 +53,7 @@
 		"labeltext"		""
 		"xpos"			"5"
 		"ypos"			"8"
-		"wide"			"120"
+		"wide"			"270"
 		"tall"			"18"
 		"zpos"			"4"
 		"textinsetx"	"5"
@@ -67,7 +67,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"		"7"
+		"xpos"		"9"
 		"ypos"		"19"
 		"wide"		"100"
 		"tall"		"6"
@@ -81,7 +81,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"			"7"
+		"xpos"			"9"
 		"ypos"			"19"
 		"wide"			"0"
 		"tall"			"6"
