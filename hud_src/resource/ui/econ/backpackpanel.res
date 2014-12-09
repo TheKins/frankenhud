@@ -81,7 +81,7 @@
 				"tall"			"f-3"
 				"textinsetx"	"8"
 				"autoResize"	"1"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
@@ -92,8 +92,8 @@
 				"fgcolor"		"10 10 10 255"
 			}
 		}
-			
-		
+
+
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -139,7 +139,7 @@
 				"tall"			"12"
 				"textinsetx"	"8"
 				"autoResize"	"1"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
@@ -149,7 +149,7 @@
 				"border"		"StoreNewBorder"
 				"fgcolor"		"10 10 10 255"
 			}
-			
+
 			"use_item_sounds"	"1"
 		}
 	}
@@ -1731,7 +1731,7 @@
 			// "fgcolor_override" "200 80 60 255"
 		// }
 	// }
-	
+
 	"ContextExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1745,7 +1745,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"80"
@@ -1754,7 +1754,7 @@
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"c0"
 		"next_explanation"		"StockExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1773,7 +1773,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1792,7 +1792,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1816,13 +1816,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -1838,8 +1838,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1863,13 +1863,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -1885,7 +1885,7 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		"NextButton"
 		{
@@ -1910,13 +1910,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -1932,8 +1932,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1953,7 +1953,7 @@
 			"fgcolor_override" "200 80 60 255"
 		}
 	}
-	
+
 	"StockExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
