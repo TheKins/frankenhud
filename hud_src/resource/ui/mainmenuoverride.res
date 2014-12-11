@@ -3851,7 +3851,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"LayoutA"
-			"xpos"			"22"
+			"xpos"			"0"
 			"ypos"			"290"
 			"zpos"			"0"
 			"wide"			"f0"
@@ -4102,8 +4102,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"LayoutB"
-			"xpos"			"22"
-			"ypos"			"290"
+			"xpos"			"0"
+			"ypos"			"280"
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -4135,7 +4135,7 @@
 				"ypos"			"10"
 				"zpos"			"0"
 				"wide"			"p.85"
-				"tall"			"120"
+				"tall"			"130"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
