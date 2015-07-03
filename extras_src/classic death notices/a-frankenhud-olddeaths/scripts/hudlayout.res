@@ -43,7 +43,7 @@
 		"wide"	"200"
 		"tall"	"55"
 
-		"blue_active_xpos"			"0"
+		"blue_active_xpos"			"2"
 		"red_active_xpos"			"106"
 	}
 
@@ -439,37 +439,37 @@
 		"tall"	 "480"
 	}
 
-	HudDeathNotice
-	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
-		"wide"	 "628"
-		"tall"	 "468"
+HudDeathNotice
+{
+	"fieldName" "HudDeathNotice"
+	"visible" "1"
+	"enabled" "1"
+	"xpos"	 "r640"	[$WIN32]
+	"ypos"	 "12"	[$WIN32]
+	"xpos"	 "r672"	[$X360]
+	"ypos"	 "35"	[$X360]
+	"wide"	 "628"
+	"tall"	 "468"
 
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
-		
-		"TextFont"		"Default"
-		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+	"MaxDeathNotices" "4"
+	"IconScale"	  "0.35"
+	"LineHeight"	  "16"
+	"LineSpacing"	  "4"
+	"CornerRadius"	  "3"
+	"RightJustify"	  "1"	// If 1, draw notices from the right
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
-	}
+	"TextFont"		"Default"
+
+	"TeamBlue"		"HUDBlueTeamSolid"
+	"TeamRed"		"HUDRedTeamSolid"
+	"IconColor"		"HudWhite"
+	"LocalPlayerColor"	"HUDBlack"
+
+	"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
+	"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
+	"BaseBackgroundColor"	"32 32 32 255"		[$X360]
+	"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+}
 
 	HudVehicle
 	{
@@ -1222,11 +1222,11 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r270"
-		"ypos"					"300"
+		"xpos"					"r200"
+		"ypos"					"rs1"
 		"zpos"					"10"
-		"wide"					"270"
-		"tall"					"180"
+		"wide"					"190"
+		"tall"					"f0"
 	}
 
 	HudTFCrosshair
@@ -1356,23 +1356,58 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
+		"xpos"			"r130"
+		"ypos"			"c-154"
+		//"ypos_hidef"	"c-42"
+		//"ypos_lodef"	"c-42"
+		"wide"			"390"
+		"tall"			"320"
 		"PaintBackgroundType"	"0"
 	}
 
-	"HudMiniGame"
+"ItemAttributeTracker"
+	{
+		"fieldName"         "ItemAttributeTracker"
+		"visible"                 "1"
+		"enabled"                 "1"
+		"xpos"                        "0"
+		"ypos"                        "0"
+		"wide"                        "f5"
+		"tall"                        "f0"
+		"PaintBackgroundType"        "0"
+  }
+
+	HudMiniGame
 	{
 		"fieldName" "HudMiniGame"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"        "0"
-		"ypos"        "0"
-		"wide"        "f0"
-		"tall"        "480"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+
+	"QuestNotificationPanel"
+	{
+	  "fieldName"        "QuestNotificationPanel"
+	  "visible" "1"
+	  "enabled" "1"
+	  "xpos"        "0"
+	  "ypos"        "0"
+	  "wide"        "f0"
+	  "tall"        "f0"
+	}
+
+	"QuestLogContainer"
+	{
+	  "ControlName"                "EditablePanel"
+	  "fieldName"                 "QuestLogContainer"
+	  "visible"                 "1"
+	  "enabled"                 "1"
+	  "xpos"                        "0"
+	  "ypos"                        "0"
+	  "wide"                         "f0"
+	  "tall"                         "f0"
 	}
 }
