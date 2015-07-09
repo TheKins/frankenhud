@@ -20,7 +20,7 @@
 		"medal_width"			"15"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width"		"0"		[$X360]
-		"name_width"		"118"	[$WIN32]
+		"name_width"		"113"	[$WIN32]
 		"name_width"		"150"	[$X360]
 		"name_width_short"        "85"        [$WIN32]
 		"status_width"		"15"	[$WIN32]
@@ -35,7 +35,7 @@
 		"ping_width"		"21"	[$WIN32]
 		"ping_width"		"50"	[$X360]		// Larger to push the value off the edge
 		"stats_width"                "30"
-    "killstreak_width"        "20"
+		"killstreak_width"        "20"
 	}
 	"BlueScoreBG"
 	{
@@ -435,7 +435,7 @@
 		"xpos_hidef"	"30"
 		"ypos"			"66"
 		"zpos"			"20"
-		"wide"			"290"
+		"wide"			"295"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
@@ -447,6 +447,7 @@
 		"autoresize"	"3"
 		"linespacing"	"17"
 		"fgcolor"		"blue"
+		//"show_columns"	"1"
 
 		if_mvm
 		{
@@ -457,12 +458,12 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"305"
+		"xpos"			"300"
 		"xpos_lodef"	"284"
 		"xpos_hidef"	"314"
 		"ypos"			"66"
 		"zpos"			"20"
-		"wide"			"290"
+		"wide"			"295"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
@@ -474,6 +475,7 @@
 		"autoresize"	"3"
 		"linespacing"	"17"
 		"textcolor"		"red"
+		//"show_columns"	"1"
 
 		if_mvm
 		{

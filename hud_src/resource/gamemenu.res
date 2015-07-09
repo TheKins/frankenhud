@@ -28,6 +28,15 @@
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
+	"PlayCompetitiveButton"
+	{
+		"label" "" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "1"
+		"OnlyWhenCompetitiveEnabled" "1"
+		"tooltip"	"#MMenu_PlayComp"
+	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_Servers" 
@@ -135,7 +144,7 @@
 	{
 		"label" ""
 		"command"	"opentf2options"
-		"subimage"	"glyph_multiplayer"
+		"subimage"	"flagtime_full"
 		"tooltip"	"#MMenu_AdvOptions"
 	}
 }
