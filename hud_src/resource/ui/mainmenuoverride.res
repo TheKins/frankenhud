@@ -203,9 +203,9 @@
 		{
 			"image"		"../console/title_eotl01"
 		}
-		if_operation
+		if_community_update
 		{
-			"image"		"../console/title_summer_operation_2015"
+			"image"		"../console/title_invasion"
 		}
 	}
 
@@ -851,7 +851,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"	"LabelDark"
 			"wrap"			"1"
 		}
 
@@ -870,7 +870,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor"	"LabelDark"
 		}
 
 		"MOTD_TitleImageBg"
@@ -926,7 +926,7 @@
 			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor"	"LabelDark"
 
 			"MOTD_TextPanel"
 			{
@@ -954,7 +954,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"46 43 42 255"
+					"fgcolor"	"LabelDark"
 					"wrap"			"1"
 				}
 			}
@@ -4259,7 +4259,7 @@
 				{
 					"0"
 					{
-						"item"		"Unused Summer 2015 Operation Pass"
+						"item"		"Unused Invasion Pass"
 
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4268,15 +4268,16 @@
 					}
 					"1"
 					{
-						"item"		"Operation Summer 2015 Concealed Killer Case"
+						"item"		"Invasion Key"
 
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
+						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Operation Summer 2015 Powerhouse Case"
+						"item"		"Invasion Case 01"
 
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4284,39 +4285,11 @@
 					}
 					"3"
 					{
-						"item"		"Summer 2015 Operation Key"
+						"item"		"Invasion Case 02"
 
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Taunt: The Boxtrot"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: The Proletariat Showoff"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Taunt: Kazotsky Kick"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
 					}
 				}
 			}
