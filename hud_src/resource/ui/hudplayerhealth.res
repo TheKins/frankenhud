@@ -470,6 +470,22 @@
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatus_RuneReflect"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneReflect"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_reflect_hud"
+		"fgcolor"		"TanDark"
+	}
 	"PlayerStatus_RunePrecision"
 	{
 		"ControlName"	"ImagePanel"
