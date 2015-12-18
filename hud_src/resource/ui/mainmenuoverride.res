@@ -191,10 +191,6 @@
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
-		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -209,7 +205,7 @@
 		}
 		if_operation
 		{
-			"image"		"../console/title_team_halloween2015"
+			"image"		"../console/title_team_tough_break"
 		}
 		if_community_update
 		{
