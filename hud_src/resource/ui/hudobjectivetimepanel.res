@@ -35,6 +35,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
+
+		if_comp
+		{
+			"visible"	"0"
+		}
 	}
 	"TimePanelValue"
 	{
