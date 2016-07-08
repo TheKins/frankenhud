@@ -22,6 +22,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumSmallBold"
 	}	
+	
 	"TimePanelBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -36,7 +37,7 @@
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
 
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -95,6 +96,15 @@
 		"font"			"ClockSubTextTiny"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"0"
+			"ypos"					"21"
+			"wide"					"130"
+			"font"					"HudFontSmallestBold"
+		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -127,8 +137,15 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"0"
+			"ypos"					"21"
+			"wide"					"130"
+			"font"					"HudFontSmallestBold"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -163,6 +180,15 @@
 		"font"			"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"0"
+			"ypos"					"21"
+			"wide"					"130"
+			"font"					"HudFontSmallestBold"
+		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -198,6 +224,15 @@
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"0"
+			"ypos"					"21"
+			"wide"					"130"
+			"font"					"HudFontSmallestBold"
+		}
 	}	
 	"SetupBG"
 	{
@@ -242,6 +277,15 @@
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"0"
+			"ypos"					"21"
+			"wide"					"130"
+			"font"					"HudFontSmallestBold"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
