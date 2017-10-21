@@ -32,6 +32,18 @@ Scheme
 		"QuestStandardHighlight"	"0 255 0 255"
 		"QuestBonusHighlight"		"150 160 255 255"
 
+		"QuestMap_Bonus"	"222 217 166 255"
+		"QuestMap_ActiveOrange"	"212 127 25 255"
+		"QuestMap_InactiveGrey"	"100 100 100 255"
+		"QuestMap_BGImages"	"56 58 60 255"
+
+		"PartyMember1"	"124 173 255 255"
+		"PartyMember2"	"99  232 167 255"
+		"PartyMember3"	"229 255 121 255"
+		"PartyMember4"	"232 184 99  255"
+		"PartyMember5"	"255 118 108 255"
+		"PartyMember6"	"255 133 255 255"
+
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
