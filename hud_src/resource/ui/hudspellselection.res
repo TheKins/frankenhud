@@ -61,7 +61,7 @@
 		"labelText"		"%actiontext%"
 		"textAlignment" "west"
 		"xpos"			"3"
-		"ypos"			"34"
+		"ypos"			"24"
 		"wide"			"75"
 		"tall"			"10"
 		"fgcolor"		"tanlight"
