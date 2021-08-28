@@ -244,7 +244,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"380"
+		"ypos"		"355"
 		"wide"	 	"252"
 		"tall"	 	"28"
 		"priority"	"40"
@@ -445,7 +445,7 @@ HudDeathNotice
 	"visible" "1"
 	"enabled" "1"
 	"xpos"	 "r640"	[$WIN32]
-	"ypos"	 "12"	[$WIN32]
+	"ypos"	 "18"	[$WIN32]
 	"xpos"	 "r672"	[$X360]
 	"ypos"	 "35"	[$X360]
 	"wide"	 "628"
@@ -549,7 +549,7 @@ HudDeathNotice
 		"tall"	 "480"
 		"zpos" 	"2"
 		"xpos"			"c-300"
-		"ypos"			"r72"
+		"ypos"			"r122"
 
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
