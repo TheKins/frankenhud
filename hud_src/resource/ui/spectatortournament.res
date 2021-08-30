@@ -18,29 +18,7 @@
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
-
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-			//"team1_player_base_x"             "768"
-			"team1_player_base_y"           "70"
-			"team1_player_delta_x"          "55"
-			"team1_player_delta_y"          "0"
-		}
 		
-//		if_mvm
-//		{
-//			"xpos"					"c-250"
-//			"ypos"					"6"
-//			"wide"					"500"
-//			"tall"					"180"
-//	
-//			"team1_player_delta_x"			"52"
-//		}
-
 		"playerpanels_kv"
 		{
 			"visible"		"0"
@@ -50,7 +28,7 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+													
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -159,7 +137,7 @@
 				"src_corner_width"	"22"
 			
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_height"	"3"
 				
 				if_mvm
 				{
@@ -254,6 +232,16 @@
 				"tall"		"35"
 			}
 		}
+		
+		if_mvm
+		{
+			"xpos"					"c-250"
+			"ypos"					"6"
+			"wide"					"500"
+			"tall"					"180"
+	
+			"team1_player_delta_x"			"52"
+		}		
 	}
 
 	"topbar"
@@ -283,7 +271,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"
-		"ypos"			"r75"
+		"ypos"			"r140"
 		"wide"			"600"
 		"tall"			"18"
 		"autoResize"		"0"
@@ -296,7 +284,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"r135"
+			"ypos"			"r160"
 		}
 	}
 	"BuyBackLabel"
@@ -319,6 +307,7 @@
 	
 		if_mvm
 		{
+			"ypos"		"r140"
 			"visible"		"1"
 		}	
 	}
@@ -451,5 +440,19 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
+	}
+	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}	
 }
