@@ -398,13 +398,26 @@
 			"allow_rot"				"0"
 		}
 	}
+	
+	"PageButtonsAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PageButtonsAnchor"
+		"xpos"			"c-258"
+		"ypos"			"37"
+		"zpos"			"0"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+	}
 
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c-288"
-		"ypos"			"311"
+		"xpos"			"10"
+		"ypos"			"-10"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"10"
@@ -421,13 +434,16 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"pin_to_sibling" 							"PageButtonsAnchor"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 	"PrevPageButtonArrow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PrevPageButtonArrow"
-		"xpos"			"c-268"
-		"ypos"			"311"
+		"xpos"			"-1"
+		"ypos"			"-10"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
@@ -437,6 +453,9 @@
 		"labelText"		"<"
 		"font"			"HudFontSmall"
 		"textAlignment"	"center"
+		"pin_to_sibling" 							"PageButtonsAnchor"
+		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 	// "CurPageLabel"
@@ -462,8 +481,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
-		"ypos"			"311"
+		"xpos"			"10"
+		"ypos"			"-10"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"10"
@@ -480,13 +499,16 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"pin_to_sibling" 							"PageButtonsAnchor"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 	"NextPageButtonArrow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NextPageButtonArrow"
-		"xpos"			"c257"
-		"ypos"			"311"
+		"xpos"			"0"
+		"ypos"			"-10"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
@@ -495,6 +517,9 @@
 		"labelText"		">"
 		"font"			"HudFontSmall"
 		"textAlignment"	"center"
+		"pin_to_sibling" 							"PageButtonsAnchor"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
 
 	"DragToNextPageButton"
