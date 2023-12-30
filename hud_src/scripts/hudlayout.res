@@ -1474,4 +1474,16 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-310"
+		"ypos"				"r110"
+		"wide"				"100"
+		"tall"				"100"
+		"visible" 			"1"
+		"enabled" 			"1"
+	}
 }
