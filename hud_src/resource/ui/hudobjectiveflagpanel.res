@@ -15,6 +15,7 @@
 		"if_hybrid"
 		{
 			"zpos"			"-1"
+			"ypos"			"-25"
 		}
 	}
 	
