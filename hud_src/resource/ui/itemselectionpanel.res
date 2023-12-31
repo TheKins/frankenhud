@@ -68,7 +68,8 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
-				"allow_rot"				"0"
+				"allow_rot"		"0"
+				"inventory_image_type"	"1"
 			}
 
 			"use_item_sounds"	"1"
@@ -203,7 +204,7 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
-		"xpos"			"c-55"
+		"xpos"			"c-150"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"375"
