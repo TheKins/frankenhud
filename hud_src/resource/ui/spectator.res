@@ -105,11 +105,8 @@
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSpectator"
 		"xpos"			"r260"	[$WIN32]
-		"ypos"			"r16"	[$WIN32]
-		"xpos"			"r285"	[$X360]
-		"ypos"			"32"	[$X360]
+		"ypos"			"r23"	[$WIN32]
 		"wide"			"240"	[$WIN32]
-		"wide"			"220"	[$X360]
 		"tall"			"20"
 		"tall_hidef"		"30"
 		"autoResize"		"0"
@@ -256,7 +253,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
-		"xpos"			"20"
+		"xpos"			"31"
 		"ypos"			"r60"
 		"zpos"			"2"
 		"wide"			"160"
@@ -330,6 +327,7 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type"	"1"
 		}
 
 		"ItemLabel"
