@@ -104,9 +104,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSpectator"
-		"xpos"			"r260"	[$WIN32]
-		"ypos"			"r23"	[$WIN32]
-		"wide"			"240"	[$WIN32]
+		"xpos"			"r260"
+		"ypos"			"r16"
+		"wide"			"240"
 		"tall"			"20"
 		"tall_hidef"		"30"
 		"autoResize"		"0"
