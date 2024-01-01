@@ -271,29 +271,6 @@
 		"wrap"			"1"
 		"fgcolor"		"White"
 	}
-	"TipLabel2"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TipLabel2"
-		"xpos"			"21"
-		"ypos"			"r59"
-		"zpos"			"1"
-		"wide"			"160"
-		"tall"			"54"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%tip%"
-		"textAlignment"		"center"	[$WIN32]
-		"textAlignment"		"north-west"	[$X360]
-		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"DefaultVerySmall"
-		"wrap"			"1"
-		"fgcolor"		"Black"
-	}
-
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
