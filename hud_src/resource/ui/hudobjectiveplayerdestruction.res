@@ -1004,34 +1004,33 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"Background"
-			"xpos"			"105"
-			"ypos"			"10"
+			"xpos"			"112"
+			"ypos"			"20"
 			"zpos"			"1"
-			"wide"			"60"
-			"tall"			"45"
+			"wide"			"45"
+			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/ammo_blue_bg"
-			"scaleImage"	"1"	
-			"teambg_2"		"../hud/ammo_red_bg"
-			"teambg_3"		"../hud/ammo_blue_bg"
+			"image"				"../hud/color_panel_blu"
+			"scaleImage"		"1"
+			"teambg_2"			"../hud/color_panel_red"
+			"teambg_3"			"../hud/color_panel_blu"
 			"proportionalToParent"	"1"
+
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 
 		"CountdownImage"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"CountdownImage"
-			"xpos"			"115"
-			"ypos"			"15"
-			"zpos"			"1"
-			"wide"			"35"
-			"tall"			"35"
+			"xpos"			"9999"
 			"visible"		"0"
-			"enabled"		"1"
-			"image"			"../hud/arrow_big_down"
-			"scaleImage"		"1"	
-			"proportionalToParent"	"1"
+			"enabled"		"0"
 		}
 		
 		"CountdownLabelTime"
