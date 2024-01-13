@@ -49,7 +49,7 @@
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"cs-0.5"
+			"xpos"			"433"
 			"ypos"			"cs-0.5"
 			"zpos"			"0"		
 			"wide"			"o1"
@@ -58,7 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"75"
+			"fov"			"80"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -166,7 +166,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"MedalButton"
-			"xpos"			"cs-0.5"
+			"xpos"			"cs-0.5-7"
 			"ypos"			"cs-0.5+2"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -185,7 +185,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
+		"xpos"			"53"
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
