@@ -388,7 +388,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
+		"xpos"			"c-289"
 		"ypos"			"107"
 		"zpos"			"-99"
 		"wide"			"30"
