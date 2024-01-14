@@ -6,7 +6,7 @@
 		"fieldName"				"HudTournament"
 				
 		"xpos"					"c-125"
-		"ypos"					"0"
+		"ypos"					"25"
 		"wide"					"250"
 		"tall"					"480"
 		"proportionaltoparent"	"1"
@@ -53,7 +53,7 @@
 		if_readymode
 		{
 			"xpos"							"c-320"
-			"ypos"							"0"
+			"ypos"							"-25"
 			"wide"							"640"
 			"tall"							"480"
 
@@ -168,8 +168,8 @@
 				"xpos"			"2"
 				"ypos"			"2"
 				"zpos"			"2"
-				"wide"			"22"
-				"tall"			"22"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -196,7 +196,7 @@
 
 				if_readymode
 				{
-					"xpos"			"5"
+					"xpos"			"4"
 					"ypos"			"4"
 					"wide"			"20"
 					"tall"			"20"
@@ -243,7 +243,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"22"
+				"xpos"				"18"
 				"ypos"				"-3"
 				"zpos"				"3"
 				"wide"				"32"
@@ -468,8 +468,7 @@
 		
 		if_readymode
 		{
-			"xpos"			"195"
-			"visible"		"1"
+			"xpos"			"9999"
 		}		
 	}
 	"TournamentLabel"
@@ -736,14 +735,14 @@
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"TFFontSmall"
 		"fgcolor"		"TanLight"
-		"xpos"			"8"
+		"xpos"			"6"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"35"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%winconditions%"
@@ -765,8 +764,8 @@
 
 		if_readymode
 		{
-			"xpos"			"285"
-			"ypos"			"26"
+			"xpos"			"279"
+			"ypos"			"50"
 			"visible"		"1"
 			"font"			"TFFontMedium"
 		}
@@ -783,7 +782,7 @@
 		"tall"			"17"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
@@ -830,7 +829,7 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFontSmallBold"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
@@ -840,7 +839,7 @@
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFontSmallBold"
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
@@ -850,9 +849,9 @@
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"225"
-			"ypos"			"110"
+			"font"			"HudFontSmallBold"
+			"xpos"			"229"
+			"ypos"			"100"
 			"wide"			"190"
 			"tall"			"20"
 			"zpos"			"3"
@@ -880,7 +879,7 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFontSmallBold"
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
@@ -891,7 +890,7 @@
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFontSmallBold"
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
@@ -902,9 +901,9 @@
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"226"
-			"ypos"			"111"
+			"font"			"HudFontSmallBold"
+			"xpos"			"230"
+			"ypos"			"101"
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
