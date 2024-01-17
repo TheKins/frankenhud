@@ -453,7 +453,7 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "14"
 		"LineSpacing"	  "0"
-		"CornerRadius"	  "5"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 
 		"TextFont"		"Default"
