@@ -444,9 +444,8 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "35"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
+		"xpos"	 "r640"
+		"ypos"	 "20"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -1473,7 +1472,7 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
-
+	
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
@@ -1485,4 +1484,5 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
+
 }
