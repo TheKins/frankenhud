@@ -10,6 +10,6 @@ If you're posting a bug, try to include a screenshot, but definitely include inf
 
 Installation
 ============
-Copy hud_src to your steamapps\common\Team Fortress 2\tf\custom directory.
+Copy frankenhud-master to your steamapps\common\Team Fortress 2\tf\custom directory.
 
-For additional customization, please check the extras_src directory.
+For additional customization, please check the #extras directory.
