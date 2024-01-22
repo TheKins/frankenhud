@@ -1,4 +1,3 @@
-#base "HudItemEffectMeter.res"
 "Resource/UI/HudRocketPack.res"
 {
 	HudItemEffectMeter
@@ -6,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c126"	[$WIN32]
-		"ypos"			"r65"	[$WIN32]
+		"xpos"			"c126"
+		"ypos"			"r65"
 		"wide"			"94"
 		"tall"			"45"
 	}
@@ -16,10 +15,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"4"
+		"xpos"			"7"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"70"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
@@ -27,7 +26,13 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"				
+		"teambg_3"		"../hud/color_panel_blu"	
+
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
+
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"			
 	}
 
 	"ItemEffectIcon"
@@ -35,7 +40,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"24"
 		"tall"			"24"
@@ -49,8 +54,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
-		"xpos"			"24"
-		"ypos"			"0"
+		"xpos"			"23"
+		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"15"
@@ -63,7 +68,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"178 0 0 255"
 	}
 
