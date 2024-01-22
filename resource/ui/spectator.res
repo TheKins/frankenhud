@@ -120,134 +120,45 @@
 
 	"ClassOrTeamLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
-		"xpos"			"9999"// "c-85"
-		"ypos"			"68"
-		"ypos_hidef"	"90"
-		"ypos_lodef"	"30"
-		"wide"			"170"
-		"wide_hidef"	"130"
-		"wide_lodef"	"220"
-		"tall"			"15"
-		"tall_lodef"	"25"
-		"zpos"			"2"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"center"
-		"textAlignment_lodef"		"north-west"
-		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmallest"
-		"font_lodef"	"HudFontSmall"
-		"wrap_lodef"			"1"
+		"xpos"			"9999"
 	}
 	"SwitchCamModeKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"60"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
-
+		"xpos"			"9999"
 	}
 	"SwitchCamModeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"wide"			"125"	[$WIN32]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_SwitchCamMode"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"5"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"wide"			"60"	[$WIN32]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"CycleTargetFwdLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"wide"			"125"	[$WIN32]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetFwd"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"5"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"wide"			"60"	[$WIN32]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"CycleTargetRevLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"wide"			"125"	[$WIN32]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetRev"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"TipLabel"
 	{
@@ -261,10 +172,10 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]
-		"textAlignment"		"north-west"	[$X360]
 		"font"			"SpectatorKeyHints"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"DefaultVerySmall"

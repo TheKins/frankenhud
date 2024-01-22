@@ -81,7 +81,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"xpos"			"67"
 		"ypos"			"8"
 		"zpos"			"7"
