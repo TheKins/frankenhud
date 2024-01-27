@@ -49,8 +49,8 @@
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
 			
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
@@ -61,7 +61,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"TFFontMedium"
-		"xpos"			"38"
+		"xpos"			"44"
 		"ypos"			"53"
 		"zpos"			"1"
 		"wide"			"110"
@@ -81,7 +81,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"TFFontMedium"
-		"xpos"			"45"
+		"xpos"			"44"
 		"ypos"			"63"
 		"zpos"			"1"
 		"wide"			"110"
@@ -100,8 +100,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"13"
-		"ypos"			"48"
+		"xpos"			"12"
+		"ypos"			"46"
 		"wide"			"52"
 		"tall"			"82"
 		"visible"		"1"

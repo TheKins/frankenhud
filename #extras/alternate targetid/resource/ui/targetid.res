@@ -21,11 +21,11 @@
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -43,11 +43,11 @@
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -65,11 +65,11 @@
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
 	}
 	
 	"TargetNameLabel"
@@ -100,10 +100,8 @@
 		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
-		"ypos"			"13"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
+		"ypos"			"13"
+		"ypos_minmode"	"12"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -130,7 +128,7 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"255 255 255 255"
 	}	
 	
 	"AmmoIcon"
@@ -138,7 +136,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"65"
-		"xpos_minmode"	"65"
 		"ypos"			"17"
 		"ypos_minmode"	"16"
 		"zpos"			"12"
@@ -252,9 +249,7 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"xpos_minmode"	"6"
-		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[$X360]
+		"ypos"			"6"
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"
