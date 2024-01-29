@@ -74,10 +74,10 @@
 		"fgcolor"		"white"
 	}
 
-	"PlayerStatusHealthValue2"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue2"
+		"fieldName"		"PlayerStatusHealthValueShadow"
 		"xpos"			"36"
 		"ypos"			"51"	[$WIN32]
 		"zpos"			"5"
