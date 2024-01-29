@@ -21,11 +21,11 @@
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
 
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
 
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -43,11 +43,11 @@
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
 
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
 
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -65,11 +65,11 @@
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
 
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
 	}
 
 	"TargetNameLabel"
@@ -95,7 +95,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"DefaultSmall"
+		"font"			"HudFontSmallest"
 		"xpos"			"35"
 		"ypos"			"17"	[$WIN32]
 		"ypos"			"22"	[$X360]
@@ -134,7 +134,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"34"
+		"xpos"			"43"
 		"ypos"			"18"
 		"zpos"			"12"
 		"wide"			"8"

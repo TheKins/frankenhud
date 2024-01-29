@@ -1,3 +1,3 @@
 Installation:
 
-Drop both folders into the main HUD directory (frankenhud-master).
+Drop the "resource" folder into the main HUD directory (frankenhud-master).
