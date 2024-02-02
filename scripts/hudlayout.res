@@ -1133,12 +1133,11 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"180"
-		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
+		"wide"					"f10"
 		"tall"					"100"
 	}
 
-	CriticalPanel [$WIN32]
+	CriticalPanel
 	{
 		"fieldName"				"CriticalPanel"
 		"visible"				"1"
@@ -1149,7 +1148,7 @@
 		"tall"					"25"
 	}
 
-	HudArenaClassLayout [$WIN32]
+	HudArenaClassLayout
 	{
 		"fieldName"				"HudArenaClassLayout"
 		"visible"				"1"
@@ -1160,7 +1159,7 @@
 		"tall"					"320"
 	}
 
-	HudArenaVsPanel [$WIN32]
+	HudArenaVsPanel
 	{
 		"fieldName"				"HudArenaVsPanel"
 		"visible"				"1"
@@ -1171,13 +1170,13 @@
 		"tall"					"240"
 	}
 
-	HudArenaPlayerCount [$WIN32]
+	HudArenaPlayerCount
 	{
 		"fieldName"				"HudArenaPlayerCount"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r487"
+		"ypos"					"r460"
 		"wide"					"f0"
 		"tall"					"30"
 	}
