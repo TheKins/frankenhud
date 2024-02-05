@@ -8,6 +8,62 @@
 		"screenshot_move_panel_to_corner"	"1"
 	}
 
+	"itempanel"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"itempanel"
+		"xpos"			"r200"
+		"ypos"			"c22"
+		"zpos"			"10"
+		"wide"			"190"
+		"tall"			"100"
+		"visible"		"0"
+		"bgcolor_override"		"255 255 255 0"
+		"PaintBackgroundType"	"0"
+		
+		"model_ypos"		"10"
+		"model_center_x"	"1"
+		"model_wide"		"90"
+		"model_tall"		"60"
+		
+		"text_xpos"		"10"
+		"text_ypos"		"10"
+		"text_wide"		"170"
+		"text_center"	"1"
+		
+		"max_text_height"	"100"
+		"padding_height"	"10"
+		"resize_to_text"	"1"
+		"text_forcesize"	"2"
+		
+		"itemmodelpanel"
+		{
+			"fieldName"		"itemmodelpanel"
+			"use_item_rendertarget" "0"
+			"useparentbg"		"1"
+		}
+		
+		"ItemLabel"
+		{	
+			"ControlName"	"Label"
+			"fieldName"		"ItemLabel"
+			"font"			"DefaultSmall"
+			"xpos"			"10"
+			"ypos"			"3"
+			"zpos"			"1"
+			"wide"			"270"
+			"tall"			"9"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#FreezePanel_Item"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+	}
+
 	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
@@ -116,7 +172,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
 			"xpos"			"0"		// FIXME
-			"ypos"			"130"
+			"ypos"			"125"
 			"zpos"			"4"
 			"wide"			"306"
 			"tall"			"38"
@@ -198,7 +254,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScreenshotPanel"
 		"xpos"			"c-83"
-		"ypos"			"-10"//"-50"
+		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"166"
 		"tall"			"40"
@@ -209,47 +265,47 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"		"ScreenshotPanelBG"
 			"xpos"			"0"
-			"ypos"			"-5"
+			"ypos"			"8"
 			"zpos"			"0"
 			"wide"			"166"
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/freezecam_black_bg"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 		}
 		"ScreenshotIcon"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"ScreenshotIcon"
-			"xpos"			"8"
-			"ypos"			"3"
+			"xpos"			"3"
+			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
+			"wide"			"36"
+			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/ico_camera"
-			"scaleImage"	"1"
-		}
+			"scaleImage"	"1"	
+		}		
 		"ScreenshotLabel"
-		{
+		{	
 			"ControlName"		"Label"
 			"fieldName"		"ScreenshotLabel"
 			"font"			"SpectatorKeyHints"
-			"xpos"			"25"
-			"ypos"			"5"
+			"xpos"			"40"
+			"ypos"			"25"
 			"zpos"			"2"
 			"wide"			"133"
 			"tall"			"12"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%text%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"dulltext"		"0"
-			"brighttext"		"0"
+			"brighttext"	"0"
 		}
 	}
 }

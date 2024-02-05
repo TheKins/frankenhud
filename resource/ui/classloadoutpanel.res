@@ -516,8 +516,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"RedButton"
-		"xpos"				"c-166"
-		"ypos"				"c-126"
+		"xpos"				"c136"
+		"ypos"				"c-180"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -545,8 +545,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"BlueButton"
-		"xpos"				"c-166"
-		"ypos"				"c-99"
+		"xpos"				"c136"
+		"ypos"				"c-153"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"

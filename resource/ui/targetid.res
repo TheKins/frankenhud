@@ -97,12 +97,10 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"35"
-		"ypos"			"17"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"280"
-		"tall"			"10"
+		"tall"			"13"
 		"autoResize"		"1"
 		"pinCorner"		"1"
 		"visible"		"1"
@@ -172,8 +170,8 @@
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"
-
+		"enabled"		"1"	
+		
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -189,7 +187,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-
+		
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -209,7 +207,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MoveableSymbolIcon"
-			"xpos"			"0"
+			"xpos"			"16"
 			"ypos"			"-2"
 			"zpos"			"12"
 			"wide"			"16"
@@ -222,13 +220,12 @@
 		}
 
 		"MoveableKeyLabel"
-		{
+		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
+			"font"			"DefaultVerySmall"
 			"xpos"			"0"
-			"ypos"			"22"
+			"ypos"			"20"
 			"zpos"			"1"
 			"wide"			"640"
 			"tall"			"24"
@@ -236,7 +233,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		""
+			"labelText"		"%movekey%"
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"

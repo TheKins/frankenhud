@@ -49,7 +49,7 @@
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"433"
+			"xpos"			"c-66"
 			"ypos"			"cs-0.5"
 			"zpos"			"0"		
 			"wide"			"o1"
