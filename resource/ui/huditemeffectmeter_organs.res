@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c220" //"r208"	[$WIN32]
-		"ypos"			"r68"
+		"xpos"			"c255" //"r208"	[$WIN32]
+		"ypos"			"r48"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -18,10 +18,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"30"
-		"ypos"			"8"
+		"ypos"			"9"
 		"zpos"			"0"
 		"wide"			"32"
-		"tall"			"32"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"

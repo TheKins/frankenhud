@@ -17,7 +17,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c110" //"r274"
-		"ypos"	"r47"
+		"ypos"	"r46"
 		"wide"	"f0"
 		"tall"	"700"
 	}
@@ -66,7 +66,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"	"c115" //"r274"
-		"ypos"	"r47"
+		"ypos"			"r46"
 		"wide"			"500"
 		"tall"			"100"
 	}
@@ -77,7 +77,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"	"c134"
-		"ypos"	"r10"
+		"ypos"	"r9"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"68"
 		"tall"			"8"
@@ -91,7 +91,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"	"c134" //"r246"
-		"ypos"	"r10"
+		"ypos"	"r9"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"68"
 		"tall"			"8"
