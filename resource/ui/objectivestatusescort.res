@@ -173,10 +173,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"		
 			"font"			"ItemFontAttribSmall"		
-			"xpos"			"23"			
-			"ypos"			"53"			
+			"xpos"			"21"			
+			"ypos"			"49"			
 			"zpos"			"2"
-			"wide"			"7"
+			"wide"			"10"
 			"tall"			"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -190,7 +190,7 @@
 			"if_multiple_trains"
 			{
 				"font"			"ItemFontAttribSmall"
-				"xpos"			"21"
+				"xpos"			"20"
 				"wide"			"11"
 				"tall"			"10"
 			}			
@@ -202,7 +202,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"82"
+				"ypos"			"84"
 			}
 		}
 		
@@ -211,7 +211,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
 			"xpos"			"13"
-			"ypos"			"50"
+			"ypos"			"46"
 			"zpos"			"1"
 			"wide"			"26"
 			"tall"			"26"
@@ -236,10 +236,10 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
-				"ypos"			"43"
-				"wide"			"30"
-				"tall"			"30"
+				"xpos"			"14"
+				"ypos"			"45"
+				"wide"			"23"
+				"tall"			"23"
 			}						
 		}
 		
@@ -273,10 +273,10 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
-				"ypos"			"71"
-				"wide"			"30"
-				"tall"			"30"
+				"xpos"			"14"
+				"ypos"			"76"
+				"wide"			"23"
+				"tall"			"23"
 			}			
 		}
 		
@@ -310,7 +310,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
 			"xpos"			"23"
-			"ypos"			"53"
+			"ypos"			"49"
 			"zpos"			"2"
 			"wide"			"7"
 			"tall"			"7"
@@ -326,18 +326,18 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"22"
-				"wide"			"8"
-				"tall"			"8"
+				"wide"			"6"
+				"tall"			"6"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"48"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"84"
 			}	
 		}
 		
@@ -346,7 +346,7 @@
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
 			"xpos"			"20"
-			"ypos"			"52"
+			"ypos"			"48"
 			"zpos"			"3"
 			"wide"			"4"
 			"tall"			"8"
@@ -364,12 +364,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"45"
+				"xpos"			"9999"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"81"
+				"xpos"			"9999"
 			}	
 		}
 
@@ -379,7 +379,7 @@
 			"fieldName"		"CapNumPlayers"
 			"font"			"ItemFontAttribSmall"
 			"xpos"			"25"
-			"ypos"			"53"
+			"ypos"			"49"
 			"zpos"			"4"
 			"wide"			"20"
 			"tall"			"7"
@@ -395,7 +395,7 @@
 			"if_multiple_trains"
 			{
 				"font"			"ItemFontAttribSmall"
-				"xpos"			"25"
+				"xpos"			"22"
 				"wide"			"30"
 				"tall"			"10"
 			}			
@@ -407,7 +407,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"82"
+				"ypos"			"83"
 			}	
 		}
 		
@@ -416,7 +416,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
 			"xpos"			"23"
-			"ypos"			"53"
+			"ypos"			"50"
 			"zpos"			"2"
 			"wide"			"7"
 			"tall"			"7"
@@ -432,18 +432,18 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"22"
-				"wide"			"8"
-				"tall"			"8"
+				"wide"			"7"
+				"tall"			"7"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"47"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"84"
 			}
 		}
 	
@@ -452,7 +452,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
 			"xpos"				"9"
-			"ypos"				"8"			
+			"ypos"				"5"			
 			"zpos"				"20"
 			"wide"				"65"			
 			"tall"				"42"			
@@ -462,7 +462,7 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"9"
-				"ypos"			"2"			
+				"ypos"			"4"			
 				"wide"			"65"			
 				"tall"			"42"			
 			}	

@@ -110,6 +110,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmallBold"
+			"fgcolor"		"White"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -130,7 +131,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmallBold"
-			"fgcolor"		"black"
+			"fgcolor"		"Black"
 		}		
 	}
 	
@@ -180,6 +181,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontSmallBold"
+			"fgcolor"		"White"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -200,7 +202,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontSmallBold"
-			"fgcolor"		"black"
+			"fgcolor"		"Black"
 		}			
 	}				
 }
