@@ -1,3 +1,5 @@
+#base "../#extras/transparent-viewmodels/transparent_viewmodels.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
