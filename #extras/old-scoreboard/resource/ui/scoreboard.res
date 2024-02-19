@@ -95,10 +95,10 @@
 			"tall"			"714"
 		}
 	}
-	"BlueTeamLabel"
+	"BlueTeamLabel_Old"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"BlueTeamLabel_Old"
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
@@ -240,10 +240,10 @@
 			"visible"		"0"
 		}
 	}								
-	"RedTeamLabel"
+	"RedTeamLabel_Old"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"RedTeamLabel_Old"
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
@@ -539,13 +539,44 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 
-		"xpos"			"5"
-		"ypos"			"267"
+		"xpos"			"1"
+		"ypos"			"272"
 		"zpos"			"10"
 		"wide"			"120"
-		"tall"			"175"
+		"tall"			"170"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
 
-		"fov"			"20"
+		"render_texture"	"0"
+		"fov"			"23"
+		"allow_rot"		"0"
+
+		"disable_speak_event"	"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		"model"
+		{
+			"force_pos"	"1"
+
+			"angles_x" "0"
+			"angles_y" "170"
+			"angles_z" "0"
+			"origin_x" "200"
+			"origin_y" "0"
+			"origin_z" "-90"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+
+			"modelname"		""
+		}
 	}					
 	"ShadedBar"
 	{
@@ -1518,5 +1549,29 @@
 		{
 			"visible"		"1"
 		}
+	}
+	"RedTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RedTeamImage"
+		"xpos"				"9999"
+	}	
+	"BlueTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlueTeamImage"
+		"xpos"				"9999"
+	}
+	"BlueTeamLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"BlueTeamLabel"
+		"xpos"				"9999"
+	}
+	"RedTeamLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"RedTeamLabel"
+		"xpos"				"9999"
 	}
 }	
