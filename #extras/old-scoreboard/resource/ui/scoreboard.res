@@ -632,7 +632,7 @@
 		"xpos"			"85"
 		"ypos"			"375"
 		"zpos"			"3"
-		"wide"			"455"
+		"wide"			"250"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -654,7 +654,7 @@
 		"xpos"			"86"
 		"ypos"			"378"
 		"zpos"			"2"
-		"wide"			"455"
+		"wide"			"250"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -685,6 +685,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
+
+		if_mvm
+		{
+			"font"			"ScoreboardSmall"
+		}
 	}
 	"HorizontalLine"
 	{
