@@ -91,6 +91,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"HudFontSmallest"
+			"fgcolor"		"TanLight"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -101,7 +102,7 @@
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sentry_not_built"
 			"labelText_lodef"		"#Building_hud_sentry_not_built_360"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -119,6 +120,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"image"			"../hud/color_panel_brown"
+			"alpha"			"160"
 
 			"scaleImage"			"1"
 			"proportionalToParent"	"1"
@@ -155,6 +157,7 @@
 			"image"			"../hud/color_panel_red"
 			"teambg_2"		"../hud/color_panel_red"
 			"teambg_3"		"../hud/color_panel_blu"
+			"alpha"			"160"
 
 			"scaleImage"			"1"
 			"proportionalToParent"	"1"
@@ -273,7 +276,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"	
 		}
@@ -302,27 +305,27 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
 			
 			"BuildingProgress"
 			{	
-				"ControlName"	"ContinuousProgressBar"
-				"fieldName"		"BuildingProgress"
-				"font"			"Default"
-				"xpos"			"0"
-				"ypos"			"29"
-				"wide"			"50"
-				"tall"			"8"				
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"ControlName"		"ContinuousProgressBar"
+				"fieldName"			"BuildingProgress"
+				"font"				"Default"
+				"xpos"				"0"
+				"ypos"				"29"
+				"wide"				"50"
+				"tall"				"8"				
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"textAlignment"		"west"
+				"dulltext"			"0"
+				"brighttext"		"0"
 			}
 		}
 		
@@ -400,7 +403,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -434,7 +437,7 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -468,7 +471,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}

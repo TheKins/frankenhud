@@ -70,7 +70,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sapper_not_built"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -88,6 +88,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"image"			"../hud/color_panel_brown"
+			"alpha"			"160"
 
 			"scaleImage"			"1"
 			"proportionalToParent"	"1"
@@ -124,6 +125,7 @@
 			"image"			"../hud/color_panel_red"
 			"teambg_2"		"../hud/color_panel_red"
 			"teambg_3"		"../hud/color_panel_blu"
+			"alpha"			"160"
 
 			"scaleImage"			"1"
 			"proportionalToParent"	"1"
@@ -148,7 +150,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -177,7 +179,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -195,7 +197,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
@@ -239,7 +241,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
