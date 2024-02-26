@@ -238,7 +238,7 @@
 	 			"ControlName"		"EditablePanel"
 				"fieldName"		"BlueTeamPanel"
 				"xpos"			"-320"
-				"ypos"			"0"
+				"ypos"			"25"
 				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
@@ -262,14 +262,14 @@
 
 					if_large
 					{
-						"ypos"			"64"
+						"ypos"			"39"
 					}
 				}
 				"BlueTeamScore"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScore"
-					"font"			"HudFontBiggerBold"
+					"font"			"MatchSummaryTeamScores"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"		"east"
 					"xpos"			"5"
@@ -284,7 +284,7 @@
 
 					if_large
 					{
-						"ypos"			"68"
+						"ypos"			"43"
 					}
 
 				}
@@ -292,7 +292,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
-					"font"			"HudFontBiggerBold"
+					"font"			"MatchSummaryTeamScores"
 					"fgcolor"		"Black"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"		"east"
@@ -308,14 +308,14 @@
 
 					if_large
 					{
-						"ypos"			"69"
+						"ypos"			"44"
 					}
 				}
 				"BlueTeamWinner"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinner"
-					"font"			"HudFontBiggerBold"
+					"font"			"MatchSummaryWinner"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"		"east"
 					"xpos"			"5"
@@ -330,14 +330,14 @@
 
 					if_large
 					{
-						"ypos"			"68"
+						"ypos"			"43"
 					}
 				}
 				"BlueTeamWinnerDropshadow"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
-					"font"			"HudFontBiggerBold"
+					"font"			"MatchSummaryWinner"
 					"fgcolor"		"Black"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"		"east"
@@ -353,14 +353,27 @@
 
 					if_large
 					{
-						"ypos"			"69"
+						"ypos"			"44"
 					}
 				}
 				"BlueTeamImage"
 				{
 					"ControlName"		"ImagePanel"
 					"fieldName"		"BlueTeamImage"
-					"xpos"			"9999"
+					"xpos"			"14"
+					"ypos"			"89"
+					"zpos"			"5"
+					"wide"			"56"
+					"tall"			"56"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"../hud/team_blue"
+					"scaleImage"		"1"
+
+					if_large
+					{
+						"ypos"			"29"
+					}
 				}
 				"BlueTeamLabel"
 				{
@@ -396,7 +409,7 @@
 
 					if_large
 					{
-						"ypos"			"65"
+						"ypos"			"40"
 					}
 				}
 				"BlueLeaderAvatarBG"
@@ -414,7 +427,7 @@
 
 					if_large
 					{
-						"ypos"			"63"
+						"ypos"			"38"
 					}
 				}
 				"BluePlayerListParent"
@@ -431,7 +444,7 @@
 
 					if_large
 					{
-						"ypos"			"102"
+						"ypos"			"77"
 						"tall"			"340"
 					}
 
@@ -443,7 +456,7 @@
 						"ypos"			"0"
 						"zpos"			"1"
 						"wide"			"p.465"
-						"tall"			"179"
+						"tall"			"205"
 						"visible"		"1"
 						"enabled"		"1"
 						"tabPosition"	"0"
@@ -463,7 +476,7 @@
 
 						if_large
 						{
-							"tall"			"310"
+							"tall"			"314"
 							"linegap"		"1"
 						}
 					}
@@ -476,7 +489,7 @@
 					"ypos"			"117"
 					"zpos"			"0"
 					"wide"			"p.2"
-					"tall"			"206"
+					"tall"			"225"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -485,7 +498,7 @@
 
 					if_large
 					{
-						"ypos"			"82"
+						"ypos"			"57"
 						"tall"			"335"
 					}
 				}
@@ -495,7 +508,7 @@
 	 			"ControlName"		"EditablePanel"
 				"fieldName"		"RedTeamPanel"
 				"xpos"			"320"
-				"ypos"			"0"
+				"ypos"			"25"
 				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
@@ -519,14 +532,14 @@
 
 					if_large
 					{
-						"ypos"			"64"
+						"ypos"			"39"
 					}
 				}						
 				"RedTeamScore"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScore"
-					"font"			"HudFontBiggerBold"
+					"font"			"MatchSummaryTeamScores"
 					"labelText"		"%redteamscore%"
 					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
@@ -541,14 +554,14 @@
 
 					if_large
 					{
-						"ypos"			"68"
+						"ypos"			"43"
 					}
 				}
 				"RedTeamScoreDropshadow"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
-					"font"			"HudFontBiggerBold"
+					"font"			"MatchSummaryTeamScores"
 					"fgcolor"		"Black"
 					"labelText"		"%redteamscore%"
 					"textAlignment"		"west"
@@ -564,14 +577,14 @@
 
 					if_large
 					{
-						"ypos"			"69"
+						"ypos"			"44"
 					}
 				}
 				"RedTeamWinner"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinner"
-					"font"			"HudFontBiggerBold"
+					"font"			"MatchSummaryWinner"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"
 					"xpos"			"r5-p.19"
@@ -586,14 +599,14 @@
 
 					if_large
 					{
-						"ypos"			"68"
+						"ypos"			"43"
 					}
 				}
 				"RedTeamWinnerDropshadow"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
-					"font"			"HudFontBiggerBold"
+					"font"			"MatchSummaryWinner"
 					"fgcolor"		"Black"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"
@@ -609,14 +622,27 @@
 
 					if_large
 					{
-						"ypos"			"69"
+						"ypos"			"44"
 					}
 				}
 				"RedTeamImage"
 				{
 					"ControlName"		"ImagePanel"
 					"fieldName"		"RedTeamImage"
-					"xpos"			"9999"
+					"xpos"			"r68"
+					"ypos"			"80"
+					"zpos"			"5"
+					"wide"			"70"
+					"tall"			"70"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"../hud/team_red"
+					"scaleImage"		"1"
+
+					if_large
+					{
+						"ypos"			"20"
+					}
 				}
 				"RedTeamLabel"
 				{
@@ -652,7 +678,7 @@
 
 					if_large
 					{
-						"ypos"			"65"
+						"ypos"			"40"
 					}
 				}
 				"RedLeaderAvatarBG"
@@ -670,7 +696,7 @@
 
 					if_large
 					{
-						"ypos"			"63"
+						"ypos"			"38"
 					}
 				}
 				"RedPlayerListParent"
@@ -687,7 +713,7 @@
 
 					if_large
 					{
-						"ypos"			"102"
+						"ypos"			"77"
 						"tall"			"340"
 					}
 			
@@ -699,7 +725,7 @@
 						"ypos"			"0"
 						"zpos"			"1"
 						"wide"			"p.465"
-						"tall"			"179"
+						"tall"			"205"
 						"visible"		"1"
 						"enabled"		"1"
 						"tabPosition"	"0"
@@ -719,7 +745,7 @@
 
 						if_large
 						{
-							"tall"			"310"
+							"tall"			"314"
 							"linegap"		"1"
 						}
 					}
@@ -732,7 +758,7 @@
 					"ypos"			"117"
 					"zpos"			"0"
 					"wide"			"p.2"
-					"tall"			"206"
+					"tall"			"225"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -741,7 +767,7 @@
 
 					if_large
 					{
-						"ypos"			"82"
+						"ypos"			"57"
 						"tall"			"335"
 					}
 				}

@@ -218,7 +218,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2023_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}		
 	}
 					
@@ -226,11 +226,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-262"
-		"ypos"			"44"
+		"xpos"			"c-296"
+		"ypos"			"33"
 		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"47"
+		"wide"			"256"
+		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
@@ -275,7 +275,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-52"
+		"xpos"			"cs-0.5-50"
 		"ypos"			"cs-0.5-134"
 		"wide"			"15"
 		"tall"			"15"
@@ -301,8 +301,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"paintborder"		"1"
-		"border"			"MainMenuBGBorderAlpha"
+		"paintborder"		"0"
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"
 
@@ -330,7 +329,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-290"
+		"xpos"			"c-285"
 		"ypos"			"99"
 		"zpos"			"-1"
 		"wide"			"8"
@@ -351,7 +350,7 @@
 		"ypos"			"72"
 		"zpos"			"-52"
 		"wide"			"320"
-		"tall"			"160"
+		"tall"			"100"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -403,23 +402,16 @@
 
 	"RankBorder"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
 		"xpos"			"c-296"
 		"ypos"			"94"
 		"zpos"			"-100"
 		"wide"			"260"
-		"tall"			"120"
+		"tall"			"60"
 		"visible"		"1"
-		"image"			"../hud/color_panel_brown_opaque"
-		"image_lodef"	"../hud/color_panel_brown_opaque"
-		"alpha"			"253"
-
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 	}
 	
@@ -1379,42 +1371,19 @@
 		"tall"			"f0"
 		"visible"		"0"
 	}
-	
-	"FriendsBackground"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"FriendsBackground"
-		"xpos"			"c-296"
-		"ypos"			"230"
-		"zpos"			"-100"
-		"wide"			"260"
-		"tall"			"180"
-		"visible"		"1"
-
-		"image"			"../hud/color_panel_brown_opaque"
-		"image_lodef"	"../hud/color_panel_brown_opaque"
-		"alpha"			"253"
-
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
-		"proportionaltoparent"	"1"
-	}
 
 	"FriendsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"c-296"
-		"ypos"			"230"
+		"ypos"			"260"
 		"zpos"			"5"
 		"wide"			"260"
-		"tall"			"180"
+		"tall"			"150"
 		"visible"		"1"
 
-		"border"		""
+		"border"		"MainMenuBGBorder"
 
 		"TitleLabel"
 		{
@@ -1423,8 +1392,8 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
-			"xpos"			"11"
-			"ypos"			"2"
+			"xpos"			"12"
+			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -1450,7 +1419,7 @@
 			"mouseinputenabled"	"0"
 
 			"paintborder"	"1"
-			"border"		""
+			"border"		"InnerShadowBorder"
 		}
 
 		"SteamFriendsList"
@@ -1461,7 +1430,7 @@
 			"ypos"			"rs1-10"
 			"zpos"			"500"
 			"wide"			"f10"
-			"tall"			"135"
+			"tall"			"110"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -1519,21 +1488,14 @@
 			"ypos"			"rs1-10"
 			"zpos"			"499"
 			"wide"			"f10"
-			"tall"			"135"
+			"tall"			"110"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
-			"bgcolor_override"	"0 0 0 150"
+			"bgcolor_override"	"0 0 0 100"
 		}
-	}
-
-	"EventPromoBackground"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"EventPromoBackground"
-		"xpos"			"9999"
 	}
 
 	"EventPromo"
@@ -1562,13 +1524,25 @@
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		""
+			"border"		"MainMenuBGBorder"
 
 			"TitleLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"xpos"			"9999"
+				"font"			"HudFontSmallBold"
+				"labelText"		"#MMenu_Update"
+				"textAlignment"	"west"
+				"xpos"			"12"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"0"
+				"fgcolor_override"	"235 227 203 255"
 			}
 
 //			"ViewDetailsGlow"
@@ -1710,6 +1684,154 @@
 //					"image_armedcolor"	"235 226 202 255"
 //				}
 //			}
+			
+			"CyclingAd"
+			{
+				"ControlName"			"CCyclingAdContainerPanel"
+				"fieldName"				"CyclingAd"
+				"xpos"					"5"
+//				"ypos"					"p0.47"
+				"ypos"					"27"
+				"zpos"					"100"
+				"wide"					"f10"
+//				"tall"					"p0.5"
+				"tall"					"60"
+				"visible"				"1"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionaltoparent"	"1"
+
+				"bgcolor_override"		"0 0 0 255"
+
+				"items"
+				{
+					"0"
+					{
+						"item"		"Winter 2023 Cosmetic Key"
+						"show_market"	"0"
+					}
+					"1"
+					{
+						"item"		"Winter 2023 Cosmetic Case"
+						"show_market"	"1"
+					}
+					"2"
+					{
+						"item"		"Taunt: Cheers!"
+						"show_market"	"0"
+					}
+					"3"
+					{
+						"item"		"Taunt: Mourning Mercs"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Taunt: Foul Play"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Map Token Snowtower"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Map Token Krampus"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Map Token Haarp"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Map Token Brew"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Map Token Hacksaw"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Map Token Turbine Event"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Map Token Carrier"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Map Token Galleria"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Map Token Emerge"
+						"show_market"	"0"
+					}
+					"14"
+					{
+						"item"		"Map Token Camber"
+						"show_market"	"0"
+					}
+					"15"
+					{
+						"item"		"Strange Filter: Snowtower (Community)"
+						"show_market"	"0"
+					}
+					"16"
+					{
+						"item"		"Strange Filter: Krampus (Community)"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Strange Filter: Haarp (Community)"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Strange Filter: Brew (Community)"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Strange Filter: Hacksaw (Community)"
+						"show_market"	"0"
+					}
+					"20"
+					{
+						"item"		"Strange Filter: Turbine Event (Community)"
+						"show_market"	"0"
+					}
+					"21"
+					{
+						"item"		"Strange Filter: Carrier (Community)"
+						"show_market"	"0"
+					}
+					"22"
+					{
+						"item"		"Strange Filter: Galleria (Community)"
+						"show_market"	"0"
+					}
+					"23"
+					{
+						"item"		"Strange Filter: Emerge (Community)"
+						"show_market"	"0"
+					}
+					"24"
+					{
+						"item"		"Strange Filter: Camber (Community)"
+						"show_market"	"0"
+					}
+				}
+			}
 
 		} // Background
 
@@ -2185,14 +2307,8 @@
 	
 	"BackgroundFooter"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
-		"xpos"			"9999"
-	}				
-	"BottomBackground"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"BottomBackground"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"-50"
@@ -2200,28 +2316,21 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown_opaque"
-		"image_lodef"	"../hud/color_panel_brown_opaque"
-
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-		"proportionaltoparent"	"1"
-	}
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+	}				
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"-5"
+		"zpos"			"-5-"
 		"wide"			"f0"
-		"tall"			"p0.001"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"244 230 195 255"
+		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}	
 

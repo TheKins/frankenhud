@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+5"
+		"ypos"			"cs-0.5"
 		"zpos"			"3"		
 		"wide"			"f0"
 		"tall"			"f0"
@@ -49,8 +49,8 @@
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"c-68"
-			"ypos"			"c-60"
+			"xpos"			"c-66"
+			"ypos"			"cs-0.5"
 			"zpos"			"0"		
 			"wide"			"o1"
 			"tall"			"p0.12"
@@ -58,7 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"85"
+			"fov"			"80"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -230,7 +230,7 @@
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
 			"xpos"			"65"
-			"ypos"			"21"
+			"ypos"			"19"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
@@ -261,7 +261,7 @@
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
 			"xpos"			"65"
-			"ypos"			"32"
+			"ypos"			"29"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
@@ -297,10 +297,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"c-124"
-			"ypos"			"20"
-			"wide"			"f10"
-			"tall"			"100"
+			"xpos"			"rs1-5"
+			"ypos"			"0"
+			"wide"			"f70"
+			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -314,24 +314,19 @@
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"c-67"
-				"ypos"			"rs1-60"
-				"wide"			"190"
+				"xpos"			"cs-0.5"
+				"ypos"			"rs1-3"
+				"wide"			"p1"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-				"if_mini"
-				{
-					"xpos"	"cs-0.5"
-					"ypos"	"rs1-65"
-					"wide"	"p1"
-				}
+	
 
 				"CurrentXPLabel"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
-					"xpos"			"1"
+					"xpos"			"0"
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
@@ -349,7 +344,7 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
-					"xpos"			"c-7"
+					"xpos"			"rs1"
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
@@ -413,7 +408,7 @@
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
-						"border"		""
+						"border"		"InnerShadowBorderThin"
 					}
 				}
 			}
@@ -423,10 +418,10 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
 				"xpos"			"0"
-				"ypos"			"c1"
+				"ypos"			"5"
 				"wide"			"f0"
-				"tall"			"p0.40"
-				"visible"		"1"
+				"tall"			"p0.45"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 150"
 
@@ -445,18 +440,18 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"proportionaltoparent"	"1"
-					"border"		""
+					"border"		"InnerShadowBorder"
 				}
 
 
-
+	
 				// First column
 				"GamesLabel"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
-					"xpos"			"6"
-					"ypos"			"2"
+					"xpos"			"10"
+					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -473,8 +468,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
-					"xpos"			"6"
-					"ypos"			"15"
+					"xpos"			"10"
+					"ypos"			"10"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -491,8 +486,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
-					"xpos"			"6"
-					"ypos"			"27"
+					"xpos"			"10"
+					"ypos"			"20"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -510,8 +505,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
-					"xpos"			"c-28"
-					"ypos"			"2"
+					"xpos"			"c-20"
+					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -528,8 +523,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
-					"xpos"			"c-28"
-					"ypos"			"15"
+					"xpos"			"c-20"
+					"ypos"			"10"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -546,8 +541,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"SupportLabel"
-					"xpos"			"c-28"
-					"ypos"			"27"
+					"xpos"			"c-20"
+					"ypos"			"20"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -565,8 +560,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
-					"xpos"			"rs1+40"
-					"ypos"			"2"
+					"xpos"			"rs1"
+					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
