@@ -19,7 +19,7 @@
 
 	"BGPanel"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BGPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -27,8 +27,14 @@
 		"wide"			"f0"
 		"tall"			"f-50"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"image"			"../hud/color_panel_brown_opaque"
+		"image_lodef"	"../hud/color_panel_brown_opaque"
+
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
+
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 		"proportionaltoparent"	"1"
 	}
 

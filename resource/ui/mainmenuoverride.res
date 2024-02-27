@@ -2223,7 +2223,7 @@
 		"enabled"		"1"
 		"fillcolor"		"244 230 195 255"
 		"scaleImage"	"1"
-	}	
+	}
 
 	"CharacterSetupButton"
 	{
