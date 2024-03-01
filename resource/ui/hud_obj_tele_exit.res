@@ -125,7 +125,6 @@
 			"image"			"../hud/color_panel_red"
 			"teambg_2"		"../hud/color_panel_red"
 			"teambg_3"		"../hud/color_panel_blu"
-			"alpha"			"160"
 
 			"scaleImage"			"1"
 			"proportionalToParent"	"1"
