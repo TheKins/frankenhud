@@ -425,17 +425,19 @@
 	
 	"TooltipPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TooltipPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"150"
-		"tall"			"50"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-		
+		"ControlName"				"Panel"
+		"fieldName"					"TooltipPanel"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"10000"
+		"wide"						"150"
+		"tall"						"30"
+		"visible"					"1"
+		"PaintBackground"			"1"
+		"PaintBackgroundType"	  	"2"
+		"bgcolor_override"			"52 48 46 250"
+		"roundedcorners"			"15"
+	
 		"TipSubLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -452,7 +454,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"168 166 163 255"
 			"wrap"			"1"
 		}
 		
