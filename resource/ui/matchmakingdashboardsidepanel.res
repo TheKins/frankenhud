@@ -20,11 +20,29 @@
 	
 	"InnerGradient"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"InnerGradient"
-		"xpos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"			"ImagePanel"
+		"fieldName"				"InnerGradient"
+		"xpos"					"0"
+		"rotation"				"2"
+
+		if_left
+		{
+			"xpos"				"rs1-3"
+			"rotation"			"1"
+		}
+
+		"ypos"					"0"
+		"wide"					"30"
+		"tall"					"f0"
+		"zpos"					"1000"
+		"visible"				"1"
+		"enabled"				"1"
+
+		"proportionaltoparent"	"1"
+		"scaleimage"			"1"
+		"mouseinputenabled"		"0"
+
+		"image"					"gradient_pure_black"
 	}
 
 	"OuterGradient"
