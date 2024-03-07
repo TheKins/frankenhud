@@ -64,15 +64,24 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
+			"xpos"			"9999"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+
+		"TopBarLine"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TopBarLine"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"-2"
-			"wide"			"p1.1"
-			"tall"			"p1"
+			"ypos"			"29"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"p0.001"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"OuterShadowBorder"
-			"proportionaltoparent"	"1"
+			"enabled"		"1"
+			"fillcolor"		"244 230 195 255"
+			"scaleImage"	"1"
 		}
 
 		"ToggleChatButton"

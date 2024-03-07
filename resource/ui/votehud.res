@@ -180,7 +180,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
-			"textAlignment"	"left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
@@ -231,7 +231,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
-			"textAlignment"	"left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
@@ -282,7 +282,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
-			"textAlignment"	"left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
@@ -314,7 +314,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
-			"textAlignment"	"left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
@@ -346,7 +346,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
-			"textAlignment"	"left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
@@ -608,14 +608,14 @@
 
 		"issue_width"		"180"
 		"issue_font"		"ItemFontNameSmall"
-		"issue_fgcolor"		"TanLight"
+		"issue_fgcolor"		"White"
 		"issue_fgcolor_disabled"	"TanDark"
 
 		"parameter_width"	"200"
 
 		"ShadedBox"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"CTFImagePanel"
 			"fieldName"		"ShadedBox"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -626,9 +626,18 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"fillcolor"	"0 0 0 127"
-			"PaintBackgroundType" "2"
+			"scaleImage"	"1"	
+			"image"			"../hud/color_panel_brown"
+			"alpha"			"160"
+
+			"scaleImage"			"1"
+			"proportionalToParent"	"1"
+
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
 		}
 
 		"TitleLabel"
@@ -638,6 +647,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
+			"fgcolor"		"White"
 			"xpos"			"0"
 			"ypos"			"10"
 			"wide"			"400"
