@@ -139,8 +139,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"1"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"1"
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
 		"Default"			"0"
@@ -218,8 +217,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"2"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"2"
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
 		"Default"			"0"
@@ -297,8 +295,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"3"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"3"
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
 		"Default"			"0"
@@ -375,8 +372,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"4"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"4"
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
 		"Default"			"0"
@@ -454,8 +450,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"5"
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
 		"Default"			"0"
@@ -532,8 +527,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"6"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"6"
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
 		"Default"			"0"
@@ -610,8 +604,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"7"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"7"
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
 		"Default"			"0"
@@ -689,8 +682,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"8"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"8"
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
 		"Default"			"0"
@@ -767,8 +759,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"9"	[$WIN32]
-		"labelText"			""		[$X360]
+		"labelText"			"9"
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
 		"Default"			"0"
@@ -876,7 +867,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&E"	[$WIN32]
+		"labelText"			"&E"
 		"textAlignment"		"south-west"
 		"Command"		"openloadout"
 		"Default"			"0"
@@ -998,7 +989,7 @@
 		}
 	}
 
-	"localPlayerImage" [$WIN32]
+	"localPlayerImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
@@ -1038,7 +1029,7 @@
 		"draw_corner_height" 	"5"
 	}
 
-	"countImage0" [$WIN32]
+	"countImage0"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
@@ -1053,7 +1044,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage1" [$WIN32]
+	"countImage1"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
@@ -1068,7 +1059,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage2" [$WIN32]
+	"countImage2"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
@@ -1083,7 +1074,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage3" [$WIN32]
+	"countImage3"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
@@ -1098,7 +1089,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage4" [$WIN32]
+	"countImage4"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
@@ -1113,7 +1104,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage5" [$WIN32]
+	"countImage5"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
@@ -1128,7 +1119,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage6" [$WIN32]
+	"countImage6"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
@@ -1143,7 +1134,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage7" [$WIN32]
+	"countImage7"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
@@ -1158,7 +1149,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage8" [$WIN32]
+	"countImage8"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
@@ -1173,7 +1164,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage9" [$WIN32]
+	"countImage9"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
@@ -1188,7 +1179,7 @@
 		"scaleImage"	"1"
 	}
 
-	"countImage10" [$WIN32]
+	"countImage10"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
@@ -1223,7 +1214,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 
-	"numScout" [$WIN32]
+	"numScout"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
@@ -1243,7 +1234,7 @@
 		"fgcolor"		"255 255 0 255"
 	}
 
-	"numSoldier" [$WIN32]
+	"numSoldier"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
@@ -1263,7 +1254,7 @@
 		"fgcolor"		"255 255 0 255"
 	}
 
-	"numPyro" [$WIN32]
+	"numPyro"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
@@ -1283,7 +1274,7 @@
 		"fgcolor"		"255 255 0 255"
 	}
 
-	"numDemoman" [$WIN32]
+	"numDemoman"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
@@ -1303,7 +1294,7 @@
 		"fgcolor"		"255 255 0 255"
 	}
 
-	"numHeavy" [$WIN32]
+	"numHeavy"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
@@ -1323,7 +1314,7 @@
 		"fgcolor"		"255 255 0 255"
 	}
 
-	"numEngineer" [$WIN32]
+	"numEngineer"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
@@ -1343,7 +1334,7 @@
 		"fgcolor"		"255 255 0 255"
 	}
 
-	"numMedic" [$WIN32]
+	"numMedic"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
@@ -1363,7 +1354,7 @@
 		"fgcolor"		"255 255 0 255"
 	}
 
-	"numSniper" [$WIN32]
+	"numSniper"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
@@ -1383,7 +1374,7 @@
 		"fgcolor"		"255 255 0 255"
 	}
 
-	"numSpy" [$WIN32]
+	"numSpy"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
@@ -1828,14 +1819,7 @@
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"9999"
-		"ypos"			"c-84"
-		"zpos"			"7"
-		"wide"			"235"
-		"tall"			"165"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"enabled"		"0"
 	}
 }

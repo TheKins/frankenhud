@@ -21,8 +21,7 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"0"	[$WIN32]
-		"tall"			"104"	[$X360]
+		"tall"			"0"
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -108,7 +107,6 @@
 		"ypos"			"r16"
 		"wide"			"240"
 		"tall"			"20"
-		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -175,10 +173,8 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"%tip%"
-		"textAlignment"		"center"	[$WIN32]
+		"textAlignment"		"center"
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 		"fgcolor"		"White"
 	}
@@ -233,7 +229,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"" //"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}

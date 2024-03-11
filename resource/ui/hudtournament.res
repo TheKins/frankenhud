@@ -35,7 +35,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"56"
 		}
 		
 		if_competitive
@@ -52,9 +52,9 @@
 		
 		if_readymode
 		{
-			"xpos"							"c-320"
+			"xpos"							"cs-0.5"
 			"ypos"							"-25"
-			"wide"							"640"
+			"wide"							"f0"
 			"tall"							"480"
 
 			"team1_player_base_y"			"66"
@@ -524,11 +524,11 @@
 		"image"			"../HUD/tournament_panel_blu"
 		"proportionaltoparent"	"1"
 
-		"src_corner_height"	"15"				// pixels inside the image
-		"src_corner_width"	"15"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"	
 		
 		if_mvm
 		{
@@ -635,12 +635,11 @@
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_red"
 
-		"src_corner_height"	"15"				// pixels inside the image
-		"src_corner_width"	"15"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
-		"proportionaltoparent"	"1"
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"	
 		
 		if_mvm
 		{
@@ -764,7 +763,7 @@
 
 		if_readymode
 		{
-			"xpos"			"279"
+			"xpos"			"385"
 			"ypos"			"50"
 			"visible"		"1"
 			"font"			"TFFontMedium"
@@ -850,7 +849,7 @@
 		if_readymode
 		{
 			"font"			"HudFontSmallBold"
-			"xpos"			"229"
+			"xpos"			"cs-0.5"
 			"ypos"			"100"
 			"wide"			"190"
 			"tall"			"20"
@@ -902,7 +901,7 @@
 		if_readymode
 		{
 			"font"			"HudFontSmallBold"
-			"xpos"			"230"
+			"xpos"			"cs-0.5"
 			"ypos"			"101"
 			"wide"			"190"
 			"tall"			"20"
@@ -926,7 +925,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"Y"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 
 		if_mvm
 		{

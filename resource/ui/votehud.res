@@ -628,7 +628,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"image"			"../hud/color_panel_brown"
-			"alpha"			"160"
+			"alpha"			"250"
 
 			"scaleImage"			"1"
 			"proportionalToParent"	"1"
