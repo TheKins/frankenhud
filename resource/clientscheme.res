@@ -1,13 +1,3 @@
-//
-// TRACKER SCHEME RESOURCE FILE
-//
-// sections:
-//		colors			- all the colors used by the scheme
-//		basesettings	- contains settings for app to use to draw controls
-//		fonts			- list of all the fonts used by app
-//		borders			- description of all the borders
-//
-//
 Scheme
 {
 	//Name - currently overriden in code
@@ -3410,10 +3400,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_brown"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -3443,10 +3433,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_red"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 		TFFatLineBorderRedBGMoreOpaque
 		{
@@ -3465,10 +3455,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_blu"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 		TFFatLineBorderBlueBGMoreOpaque
 		{
