@@ -229,7 +229,7 @@
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"MainMenuBGBorder"
+		"border"		"TFFatLineBorder"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 

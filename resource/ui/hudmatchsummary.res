@@ -55,7 +55,7 @@
 		"tall"			"43"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"TFFatLineBorder"
 		"proportionaltoparent"	"1"
 
 		if_uses_xp

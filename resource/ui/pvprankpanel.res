@@ -50,7 +50,7 @@
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
 			"xpos"			"c-68"
-			"ypos"			"c-60"
+			"ypos"			"cs-0.5"
 			"zpos"			"0"		
 			"wide"			"o1"
 			"tall"			"p0.12"
@@ -64,7 +64,7 @@
 			if_mini
 			{
 				"xpos"		"cs-0.5-228"
-				"ypos"		"cs-0.5"
+				"ypos"		"cs-0.5-4"
 				"wide"		"200"
 				"tall"		"200"
 			}
