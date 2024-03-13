@@ -3399,7 +3399,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_brown"
+			"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"60"				// pixels inside the image
 			"src_corner_width"		"60"
 			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional

@@ -1,3 +1,5 @@
+#base "../#extras/transparent-viewmodels/transparent_viewmodels.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -17,7 +19,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c110" //"r274"
-		"ypos"	"r47"
+		"ypos"	"r46"
 		"wide"	"f0"
 		"tall"	"700"
 	}
@@ -66,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"	"c115" //"r274"
-		"ypos"	"r35"
+		"ypos"			"r46"
 		"wide"			"500"
 		"tall"			"100"
 	}
@@ -77,7 +79,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"	"c134"
-		"ypos"	"r10"
+		"ypos"	"r9"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"68"
 		"tall"			"8"
@@ -91,7 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"	"c134" //"r246"
-		"ypos"	"r10"
+		"ypos"	"r9"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"68"
 		"tall"			"8"
@@ -225,7 +227,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"355"
+		"ypos"		"335"
 		"wide"	 	"252"
 		"tall"	 	"28"
 		"priority"	"40"
@@ -244,7 +246,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"355"
+		"ypos"		"335"
 		"wide"	 	"252"
 		"tall"	 	"28"
 		"priority"	"40"
@@ -257,7 +259,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"380"
+		"ypos"		"365"
 		"wide"	 	"252"
 		"tall"	 	"28"
 		"priority"	"35"
@@ -439,37 +441,33 @@
 		"tall"	 "480"
 	}
 
-HudDeathNotice
-{
-	"fieldName" "HudDeathNotice"
-	"visible" "1"
-	"enabled" "1"
-	"xpos"	 "r640"	[$WIN32]
-	"ypos"	 "18"	[$WIN32]
-	"xpos"	 "r672"	[$X360]
-	"ypos"	 "35"	[$X360]
-	"wide"	 "628"
-	"tall"	 "468"
+	HudDeathNotice
+	{
+		"fieldName" "HudDeathNotice"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	 "r640"
+		"ypos"	 "18"
+		"wide"	 "628"
+		"tall"	 "468"
 
-	"MaxDeathNotices" "4"
-	"IconScale"	  "0.35"
-	"LineHeight"	  "16"
-	"LineSpacing"	  "4"
-	"CornerRadius"	  "3"
-	"RightJustify"	  "1"	// If 1, draw notices from the right
+		"MaxDeathNotices" "4"
+		"IconScale"	  "0.35"
+		"LineHeight"	  "16"
+		"LineSpacing"	  "4"
+		"CornerRadius"	  "3"
+		"RightJustify"	  "1"	// If 1, draw notices from the right
 
-	"TextFont"		"Default"
+		"TextFont"		"Default"
 
-	"TeamBlue"		"HUDBlueTeamSolid"
-	"TeamRed"		"HUDRedTeamSolid"
-	"IconColor"		"HudWhite"
-	"LocalPlayerColor"	"HUDBlack"
+		"TeamBlue"		"HUDBlueTeamSolid"
+		"TeamRed"		"HUDRedTeamSolid"
+		"IconColor"		"HudWhite"
+		"LocalPlayerColor"	"HUDBlack"
 
-	"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-	"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-	"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-	"LocalBackgroundColor"	"0 0 0 255"		[$X360]
-}
+		"BaseBackgroundColor"	"46 43 42 220"
+		"LocalBackgroundColor"	"245 229 196 200"
+	}
 
 	HudVehicle
 	{
@@ -561,14 +559,14 @@ HudDeathNotice
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"xpos"		"c215"
+		"ypos"		"330"	[$WIN32]
+		"ypos"		"330"	[$X360]
+		"wide"		"200"
+		"tall"		"100"	[$WIN32]
+		"tall"		"100"	[$X360]
 
-		"BgAlpha"	"128"
+		"BgAlpha"	"100"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
@@ -1135,12 +1133,11 @@ HudDeathNotice
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"180"
-		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
+		"wide"					"f10"
 		"tall"					"100"
 	}
 
-	CriticalPanel [$WIN32]
+	CriticalPanel
 	{
 		"fieldName"				"CriticalPanel"
 		"visible"				"1"
@@ -1151,7 +1148,7 @@ HudDeathNotice
 		"tall"					"25"
 	}
 
-	HudArenaClassLayout [$WIN32]
+	HudArenaClassLayout
 	{
 		"fieldName"				"HudArenaClassLayout"
 		"visible"				"1"
@@ -1162,7 +1159,7 @@ HudDeathNotice
 		"tall"					"320"
 	}
 
-	HudArenaVsPanel [$WIN32]
+	HudArenaVsPanel
 	{
 		"fieldName"				"HudArenaVsPanel"
 		"visible"				"1"
@@ -1173,13 +1170,13 @@ HudDeathNotice
 		"tall"					"240"
 	}
 
-	HudArenaPlayerCount [$WIN32]
+	HudArenaPlayerCount
 	{
 		"fieldName"				"HudArenaPlayerCount"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r50"
+		"ypos"					"r460"
 		"wide"					"f0"
 		"tall"					"30"
 	}
@@ -1474,4 +1471,17 @@ HudDeathNotice
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+	
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-310"
+		"ypos"				"r110"
+		"wide"				"100"
+		"tall"				"100"
+		"visible" 			"1"
+		"enabled" 			"1"
+	}
+
 }

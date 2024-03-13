@@ -412,7 +412,6 @@
 		"tall"			"120"
 		"visible"		"1"
 		"image"			"../hud/color_panel_brown_opaque"
-		"image_lodef"	"../hud/color_panel_brown_opaque"
 		"alpha"			"253"
 
 		"src_corner_height"		"60"				// pixels inside the image
@@ -425,11 +424,56 @@
 	
 	"TooltipPanel"
 	{
-		"ControlName"				"Panel"
-		"fieldName"					"TooltipPanel"
-		"xpos"						"9999"
-		"visible"					"0"
-		"enabled"					"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TooltipPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"150"
+		"tall"			"50"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"TFFatLineBorder"
+		
+		"TipSubLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TipSubLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"%tipsubtext%"
+			"textAlignment"	"center"
+			"xpos"			"20"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"250"
+			"tall"			"50"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"117 107 94 255"
+			"wrap"			"1"
+		}
+		
+		"TipLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TipLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%tiptext%"
+			"textAlignment"	"center"
+			"xpos"			"20"
+			"ypos"			"5"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"235 226 202 255"
+			"auto_wide_tocontents" "1"
+		}
 	}	
 
 	"Notifications_ShowButtonPanel"

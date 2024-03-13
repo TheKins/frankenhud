@@ -17,7 +17,7 @@
 		"team1_player_delta_y"				"0"
 		"team2_player_base_offset_x"		"25"
 		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
+		"team2_player_delta_x"				"56"
 		"team2_player_delta_y"				"0"
 		"teams_player_delta_x_comp"			"42"
 
@@ -59,7 +59,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"56"
 			"team2_player_base_offset_x"	"5"
 		}
 
@@ -246,7 +246,7 @@
 				"xpos"				"18"
 				"ypos"				"-3"
 				"zpos"				"3"
-				"wide"				"32"
+				"wide"				"35"
 				"tall"				"32"
 				"visible"			"1"
 				"enabled"			"1"	
