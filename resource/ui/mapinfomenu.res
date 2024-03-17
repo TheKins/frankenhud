@@ -108,7 +108,7 @@
 		"scaleImage"	"1"		
 	}
 
-	"MapInfoContinue" [$WIN32]
+	"MapInfoContinue"
 	{
 		"ControlName"		"CTFButton"
 		"fieldName"		"ok"
@@ -132,7 +132,7 @@
 		"font"			"MenuSmallFont"
 	}
 	
-	"MapInfoWatchIntro" [$WIN32]
+	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoWatchIntro"
@@ -155,7 +155,7 @@
 		"fgcolor"		"Black"
 	}
 	
-	"MapInfoBack" [$WIN32]
+	"MapInfoBack"
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoBack"
@@ -200,55 +200,10 @@
 
 	"ShadedBar"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"9999"
-		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 180"
-		"PaintBackgroundType"	"0"
-	}	
-
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"intro"
-			"text"		"#TF_WatchIntro_360"
-			"icon"		"#GameUI_Icons_Y_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"continue"
-			"text"		"#TF_Continue_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ShadedBar"
+		"xpos"					"9999"
+		"visible"				"0"
+		"enabled"				"0"
+	}
 }

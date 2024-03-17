@@ -78,8 +78,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"&3"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -106,7 +105,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"BLU"	[$WIN32]
+		"labelText"		"BLU"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"255 255 255 255"
@@ -126,9 +125,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"4"
-		"labelText"		"&4"	[$WIN32]
-		"labelText"		""		[$X360]
-		"textAlignment"	"left"
+		"labelText"		"&4"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
@@ -154,7 +152,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"RED"	[$WIN32]
+		"labelText"		"RED"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"255 255 255 255"
@@ -175,7 +173,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&1"	[$WIN32]
+		"labelText"		"&1"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -198,7 +196,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"#TF_Random"	[$WIN32]
+		"labelText"		"#TF_Random"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"		"Center"
 		"fgcolor"		"255 255 255 255"
@@ -218,8 +216,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"&2"	[$WIN32]
-		"textAlignment"	"left"
+		"labelText"		"&2"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
@@ -240,48 +238,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"#Spectators"	[$WIN32]
+		"labelText"		"#Spectators"
 		"textAlignment"		"Center"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"255 255 255 255"
 	}
-	// "CancelButton" [$WIN32] 
-	// {
-		// "ControlName"	"CTFButton"
-		// "fieldName"		"CancelButton"
-		// "xpos"			"r190"
-		// "xpos_hidef"			"r200"
-		// "ypos"			"r40"
-		// "ypos_lodef"			"r64"
-		// "ypos_hidef"			"r54"
-		// "zpos"			"6"
-		// "wide"			"0"
-		// "tall"			"0"
-		// "autoResize"	"0"
-		// "pinCorner"		"2"
-		// "visible"		"1"
-		// "enabled"		"1"
-		// "tabPosition"	"0"
-		// "labelText"		"#TF_Cancel"
-		// "textAlignment"	"center"
-		// "dulltext"		"0"
-		// "brighttext"	"0"
-		// "command"		"cancelmenu"
-		// "font"			"MenuSmallFont"
-	// }
-	"CancelButton" [$WIN32] 
+
+	"CancelButton" 
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"c-35"
-		"xpos_hidef"			"c-35"
 		"ypos"			"271"
-		"ypos_lodef"			"271"
-		"ypos_hidef"			"271"
 		"zpos"			"3"
 		"wide"			"70"
 		"tall"			"10"
-
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -300,18 +271,13 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
 		"xpos"			"30"
-		"xpos_lodef"			"52"
-		"xpos_hidef"			"72"
 		"ypos"			"r40"
-		"ypos_lodef"			"r60"
-		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"0"
 		"tall"			""
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_lodef"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"west"
@@ -326,18 +292,16 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"c20"
-		"xpos_lodef"			"c-255"
-		"xpos_hidef"			"c-260"
 		"ypos"			"c-36"
 		"zpos"			"2"
-		"wide"			"100" [$WIN32] 
+		"wide"			"100"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Random"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
@@ -353,14 +317,13 @@
 		"ypos"			"c-17"
 		"zpos"			"3"
 		"wide"			"100"
-		"wide_lodef"	"70"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
@@ -404,13 +367,9 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
 		"ypos"			"r50"
-		"ypos_lodef"	"r74"
-		"ypos_hidef"	"r65"
 		"zpos"			"5"
 		"wide"			"0"
 		"tall"			"0"
-		"tall_lodef"	"74"
-		"tall_hidef"	"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -425,7 +384,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"c-35"
-		"xpos_lodef"	"230"
 		"ypos"			"225"
 		"zpos"			"1"
 		"wide"			"20"
@@ -513,10 +471,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueLabel"
 		"xpos"			"c16"
-		"xpos_lodef"	"c8"
 		"ypos"			"c3"
-		"ypos_lodef"	"72"
-		"ypos_hidef"	"63"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"20"
@@ -525,7 +480,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"Blu players:"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"rxpSmall"
@@ -537,10 +492,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedLabel"
 		"xpos"			"c16"
-		"xpos_lodef"	"c176"
 		"ypos"			"c22"
-		"ypos_lodef"	"72"
-		"ypos_hidef"	"63"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"20"
@@ -549,7 +501,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"Red players:"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"default"
@@ -560,10 +512,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BluePlayersLabel"
 		"xpos"			"c51"
-		"xpos_lodef"	"c8"
 		"ypos"			"c-2"
-		"ypos_lodef"	"72"
-		"ypos_hidef"	"63"
 		"zpos"			"2"
 		"wide"			"0"
 		"tall"			"0"
@@ -572,7 +521,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"players"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"default"
@@ -584,10 +533,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedPlayersLabel"
 		"xpos"			"c160"
-		"xpos_lodef"	"c8"
 		"ypos"			"c-35"
-		"ypos_lodef"	"72"
-		"ypos_hidef"	"63"
 		"zpos"			"2"
 		"wide"			"0"
 		"tall"			"0"
@@ -596,7 +542,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"Players:"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"default"
@@ -678,7 +624,7 @@
 		"scaleImage"	"1"
 	}		
 
-	"HighlanderLabel" [$WIN32] 
+	"HighlanderLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
@@ -700,7 +646,7 @@
 		"centerwrap"	"1"
 	}
 	
-	"HighlanderLabelShadow" [$WIN32] 
+	"HighlanderLabelShadow" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
@@ -722,7 +668,7 @@
 		"centerwrap"	"1"
 	}
 	
-	"TeamsFullLabel" [$WIN32] 
+	"TeamsFullLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabel"
@@ -744,7 +690,7 @@
 		"centerwrap"	"1"
 	}
 	
-	"TeamsFullLabelShadow" [$WIN32] 
+	"TeamsFullLabelShadow" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
@@ -766,18 +712,12 @@
 		"centerwrap"	"1"
 	}
 
-	"TeamsFullArrow" [$WIN32]
+	"TeamsFullArrow"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamsFullArrow"
 		"xpos"			"9999"
-		"ypos"			"165"
-		"zpos"			"6"
-		"wide"			"0"
-		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/arrow_big_down"
-		"scaleImage"	"1"	
+		"enabled"		"0"
 	}
 }

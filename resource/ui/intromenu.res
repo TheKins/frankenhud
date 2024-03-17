@@ -30,7 +30,7 @@
 		"tabPosition"		"0"
 	}
 
-	"Skip" [$WIN32] 
+	"Skip"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
@@ -54,7 +54,7 @@
 		"font"			"MenuSmallFont"
 	}
 
-	"Continue" [$WIN32] 
+	"Continue" 
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Continue"
@@ -78,7 +78,7 @@
 		"font"			"MenuSmallFont"
 	}
 	
-	"Back" [$WIN32] 
+	"Back" 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Back"
@@ -100,7 +100,7 @@
 		"fgcolor"		"Black"
 	}
 
-	"ReplayVideo" [$WIN32]
+	"ReplayVideo"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
