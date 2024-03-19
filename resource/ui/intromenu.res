@@ -54,6 +54,16 @@
 		"font"			"MenuSmallFont"
 	}
 
+	"Skip_Shortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Skip_Shortcut"
+		"xpos"			"9999"
+		"labelText"		"&E"
+		"command"		"skip"
+		"visible"		"1"
+	}
+
 	"Continue" 
 	{
 		"ControlName"		"CExButton"
@@ -141,28 +151,6 @@
 			
 		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"6"
-	}					
-
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"9999"
-		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 180"
-		"PaintBackgroundType"	"0"
 	}
 
 	"MenuBG"
@@ -252,4 +240,13 @@
 		"fgcolor"		"White"
 		"centerwrap"			"1"
 	}	
+
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
+	}
 }

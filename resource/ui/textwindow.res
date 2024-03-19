@@ -47,7 +47,7 @@
 
 	"TFTextMessage"
 	{
-		"ControlName"	"CTFRichText"
+		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
 		"font"			"ChalkboardText"
 		"xpos"			"c-209"
@@ -60,7 +60,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
-		"textAlignment"	"northwest"
+		"textAlignment"	"north-west"
 		"fgcolor"		"Gray"
 	}
 
@@ -83,7 +83,7 @@
 	
 	"ok"
 	{
-		"ControlName"		"CTFButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ok"
 		"xpos"			"c105"
 		"ypos"			"r105"
@@ -94,15 +94,25 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"labelText"		"#TF_Continue"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
 		"font"			"MenuSmallFont"
+	}
+
+	"ok_Shortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ok_Shortcut"
+		"xpos"			"9999"
+		"labelText"		"&E"
+		"command"		"okay"
+		"visible"		"1"
 	}
 	
 	"MenuBG"
