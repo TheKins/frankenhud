@@ -143,7 +143,17 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
+
+	"BackButton_Shortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton_Shortcut"
+		"xpos"			"9999"
+		"labelText"		"&Q"
+		"command"		"back"
+		"visible"		"1"
+	}
 	
 	"NotificationsPresentPanel"
 	{
