@@ -115,49 +115,6 @@
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
 	}
-
-	"ClassOrTeamLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassOrTeamLabel"
-		"xpos"			"9999"
-	}
-	"SwitchCamModeKeyLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"9999"
-	}
-	"SwitchCamModeLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"9999"
-	}
-	"CycleTargetFwdKeyLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"9999"
-	}
-	"CycleTargetFwdLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"9999"
-	}
-	"CycleTargetRevKeyLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"9999"
-	}
-	"CycleTargetRevLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"9999"
-	}
 	"TipLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -235,7 +192,7 @@
 		}
 	}
 	"spectator_extras"
-  {
+  	{
 	  "ControlName"		"EditablePanel"
 	  "fieldName"			"spectator_extras"
 	  "xpos"					"0"
@@ -246,5 +203,48 @@
 	  "pinCorner"			"0"
 	  "visible"				"1"
 	  "enabled"				"1"
-  }
+  	}
+
+	"ClassOrTeamLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassOrTeamLabel"
+		"xpos"			"9999"
+	}
+	"SwitchCamModeKeyLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SwitchCamModeKeyLabel"
+		"xpos"			"9999"
+	}
+	"SwitchCamModeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SwitchCamModeLabel"
+		"xpos"			"9999"
+	}
+	"CycleTargetFwdKeyLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CycleTargetFwdKeyLabel"
+		"xpos"			"9999"
+	}
+	"CycleTargetFwdLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CycleTargetFwdLabel"
+		"xpos"			"9999"
+	}
+	"CycleTargetRevKeyLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CycleTargetRevKeyLabel"
+		"xpos"			"9999"
+	}
+	"CycleTargetRevLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CycleTargetRevLabel"
+		"xpos"			"9999"
+	}
 }
