@@ -1,3 +1,5 @@
+#base "clientscheme_crosshairs.res"
+
 Scheme
 {
 	//Name - currently overriden in code
