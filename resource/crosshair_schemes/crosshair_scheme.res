@@ -12,11 +12,19 @@
 
 #base "crosshair_schemes/scheme_outline.res"
 
+
+//====================================
+// BLUR FONTS
+//====================================
+
+//#base "crosshair_schemes/scheme_blur.res"
+
+
 //====================================
 // SHADOW FONTS
 //====================================
 
-//#base "resource/crosshair_schemes/scheme_dropshadow.res"
+//#base "crosshair_schemes/scheme_dropshadow.res"
 
 
 //====================================
