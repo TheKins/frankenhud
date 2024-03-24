@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"18"
-		"ypos"			"7"
+		"xpos"			"c131"
+		"ypos"			"r39"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"	 		"30"
@@ -23,13 +23,37 @@
 		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"6"		
 	}
+
+	"UberAnchor"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"UberAnchor"
+		"xpos"										"c140"
+		"ypos"										"r39"
+		"wide"										"2"
+		"tall"										"40"
+		"visible"									"1"
+		"enabled"									"1"
+	}
+
+	"ResistIconAnchor"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"ResistIconAnchor"
+		"xpos"										"c105"
+		"ypos"										"r43"
+		"wide"										"2"
+		"tall"										"40"
+		"visible"									"1"
+		"enabled"									"1"
+	}
 	
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"22"
-		"ypos"			"21"
+		"xpos"			"6"
+		"ypos"			"-14"
 		"zpos"			"2"
 		"wide"			"142"
 		"tall"			"15"
@@ -44,14 +68,16 @@
 		"brighttext"	"0"
 		"font"			"HudFontSpectator"
 		"fgcolor"		"White"
+
+		"pin_to_sibling"	"UberAnchor"
 	}
 
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"36"
-		"ypos"			"18"
+		"xpos"			"-10"
+		"ypos"			"-14"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"15"
@@ -66,6 +92,8 @@
 		"brighttext"	"0"
 		"font"			"HudFontSpectator"
 		"fgcolor"		"White"
+
+		"pin_to_sibling"	"UberAnchor"
 	}
 	
 	"ChargeMeter"
@@ -73,8 +101,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"22"
-		"ypos"			"10"
+		"xpos"			"6"
+		"ypos"			"-3"
 		"zpos"			"2"
 		"wide"			"142"
 		"tall"			"8"				
@@ -82,9 +110,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+
+		"pin_to_sibling"	"UberAnchor"
 	}		
 
 	"ChargeMeter1"
@@ -92,8 +122,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"36"
-		"ypos"			"10"
+		"xpos"			"-2"
+		"ypos"			"-3"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"8"				
@@ -101,9 +131,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+
+		"pin_to_sibling"	"UberAnchor"
 	}
 
 	"ChargeMeter2"
@@ -111,8 +143,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"67"
-		"ypos"			"10"
+		"xpos"			"-34"
+		"ypos"			"-3"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"8"				
@@ -120,9 +152,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+
+		"pin_to_sibling"	"UberAnchor"
 	}
 
 	"ChargeMeter3"
@@ -130,8 +164,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"98"
-		"ypos"			"10"
+		"xpos"			"-66"
+		"ypos"			"-3"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"8"				
@@ -139,9 +173,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+
+		"pin_to_sibling"	"UberAnchor"
 	}
 
 	"ChargeMeter4"
@@ -149,8 +185,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"129"
-		"ypos"			"10"
+		"xpos"			"-98"
+		"ypos"			"-3"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"8"				
@@ -158,9 +194,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+
+		"pin_to_sibling"	"UberAnchor"
 	}
 	
 	"HealthClusterIcon"
@@ -176,14 +214,16 @@
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
+
+		"pin_to_sibling"	"UberAnchor"
 	}	
 	
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ResistIcon"
-		"xpos"			"150"
-		"ypos"			"5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"36"
 		"tall"			"36"
@@ -191,6 +231,8 @@
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
+
+		"pin_to_sibling"	"ResistIconAnchor"
 	}
 	
 }

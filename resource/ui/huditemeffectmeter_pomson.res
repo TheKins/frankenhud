@@ -6,9 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c160" //"r224"	[$WIN32]
-		"ypos"			"r70"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"ypos"			"r70"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -23,7 +21,7 @@
 		"ypos"			"26"
 		"zpos"			"0"
 		"wide"			"34"
-		"tall"			"16"
+		"tall"			"p.339"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
@@ -31,6 +29,7 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
+		"proportionaltoparent"	"1"
 		
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"
@@ -74,7 +73,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					

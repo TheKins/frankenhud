@@ -8,7 +8,7 @@
 		// "visible" "1" = Enabled  "visible" "0" = Disabled
 		//=========================================================================
 		
-		"visible"	"1"																																																																"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center"
+		"visible"	"0"																																																																"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center"
 		
 		//=========================================================================
 		// CROSSHAIR TYPE
@@ -27,7 +27,7 @@
 		// The Outline can be toggled between ON and OFF
 		//=========================================================================
 		
-		"font"		"Size:14 | Outline:ON"
+		"font"		"Size:15 | Outline:OFF"
 		
 		//=========================================================================
 		// CROSSHAIR POSITION
@@ -37,8 +37,8 @@
 		// Adjust the values in order to perfectly center the crosshair
 		//=========================================================================
 		
-		"xpos"		"cs-0.5"
-		"ypos"		"cs-0.5"
+		"xpos"		"cs-0.4999"
+		"ypos"		"cs-0.4990"
 
 
 		//=========================================================================

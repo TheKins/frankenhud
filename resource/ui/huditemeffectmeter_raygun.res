@@ -18,10 +18,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"45"
-		"ypos"			"25"
+		"ypos"			"27"
 		"zpos"			"0"
 		"wide"			"39"
-		"tall"			"18"
+		"tall"			"p.339"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
@@ -29,6 +29,7 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
+		"proportionaltoparent" "1"
 		
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"
@@ -72,7 +73,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					

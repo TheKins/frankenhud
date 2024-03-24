@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"23"
-		"ypos"			"7"
+		"xpos"			"c131"
+		"ypos"			"r39"
 		"zpos"			"1"
-		"wide"			"70"
+		"wide"			"73"
 		"tall"	 		"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -22,6 +22,17 @@
 
 		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"6"
+	}
+	"AmmoAnchor"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"AmmoAnchor"
+		"xpos"										"c143"
+		"ypos"										"r41"
+		"wide"										"2"
+		"tall"										"40"
+		"visible"									"1"
+		"enabled"									"1"
 	}
 	"HudWeaponLowAmmoImage"
 	{
@@ -49,8 +60,8 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"White"
-		"xpos"			"9"
-		"ypos"			"4"
+		"xpos"			"24"
+		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"58"
 		"tall"			"36"
@@ -59,6 +70,8 @@
 		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
 
+		"pin_to_sibling"	"AmmoAnchor"
+
 	}
 	"AmmoInClipShadow"
 	{
@@ -66,8 +79,8 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"Black"
-		"xpos"			"10"
-		"ypos"			"4"
+		"xpos"			"23"
+		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"58"
 		"tall"			"37"
@@ -75,6 +88,8 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"
 		"labelText"		"%Ammo%"
+
+		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"AmmoInReserve"
 	{
@@ -82,8 +97,8 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
-		"xpos"			"67"
-		"ypos"			"8"
+		"xpos"			"-35"
+		"ypos"			"-4"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"27"
@@ -91,6 +106,8 @@
 		"enabled"		"1"
 		"textAlignment"	"south-west"
 		"labelText"		"%AmmoInReserve%"
+
+		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"AmmoInReserveShadow"
 	{
@@ -98,8 +115,8 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
-		"xpos"			"68"
-		"ypos"			"8"
+		"xpos"			"-36"
+		"ypos"			"-4"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"27"
@@ -107,6 +124,8 @@
 		"enabled"		"1"
 		"textAlignment"	"south-west"
 		"labelText"		"%AmmoInReserve%"
+
+		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"AmmoNoClip"
 	{
@@ -114,22 +133,6 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"White"
-		"xpos"			"16"
-		"ypos"			"2"
-		"zpos"			"5"
-		"wide"			"84"
-		"tall"			"40"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"labelText"		"%Ammo%"
-	}
-	"AmmoNoClipShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoNoClipShadow"
-		"font"			"HudFontBiggerBold"
-		"fgcolor"		"Black"
 		"xpos"			"17"
 		"ypos"			"3"
 		"zpos"			"5"
@@ -139,5 +142,25 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
+
+		"pin_to_sibling"	"AmmoAnchor"
+	}
+	"AmmoNoClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClipShadow"
+		"font"			"HudFontBiggerBold"
+		"fgcolor"		"Black"
+		"xpos"			"16"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"84"
+		"tall"			"40"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"%Ammo%"
+
+		"pin_to_sibling"	"AmmoAnchor"
 	}
 }

@@ -18,10 +18,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c110" //"r274"
-		"ypos"	"r46"
+		"xpos"	"0"
+		"ypos"	"0"
 		"wide"	"f0"
-		"tall"	"700"
+		"tall"	"480"
 	}
 
 	HudObjectiveStatus
@@ -67,10 +67,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c115" //"r274"
-		"ypos"			"r46"
-		"wide"			"500"
-		"tall"			"100"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 	}
 
 	HudDemomanCharge
@@ -107,11 +107,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"
-		"xpos_minmode"	"r52"
 		"ypos"			"r21"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -1437,7 +1435,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-315"
+		"xpos"				"c-310"
 		"ypos"				"r110"
 		"wide"				"100"
 		"tall"				"100"
