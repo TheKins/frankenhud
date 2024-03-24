@@ -7,10 +7,10 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-300" //c0
-		"ypos"	"-22"
-		"wide"	"f0" //f0
-		"tall"	"700"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 
 	HudWeaponAmmo
@@ -1437,7 +1437,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-310"
+		"xpos"				"c-315"
 		"ypos"				"r110"
 		"wide"				"100"
 		"tall"				"100"

@@ -1,4 +1,5 @@
 #base "../../#extras/speedometer/speedometer.res"
+#base "../../#extras/crosshairs/crosshair.res"
 
 "Resource/UI/HudPlayerClass.res"
 {
@@ -7,8 +8,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"105"
-		"ypos"			"64"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -63,36 +64,18 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"r99999"	//want this invisible, so shove it offscreen
-		"ypos"			"r40"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"9999"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/character_red_bg"
-		"scaleImage"	"1"
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
 	}
 
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"r9999"	//shove it offscreen
-		"ypos"			"r60"
-		"zpos"			"1"
-		"wide"			"109"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"
-		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
-		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"classmodelpanel"
@@ -100,8 +83,8 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 
-		"xpos"			"0"
-		"ypos"			"r214"
+		"xpos"			"c-210"
+		"ypos"			"c62"
 		"zpos"			"2"
 		"wide"			"70"
 		"tall"			"140"
