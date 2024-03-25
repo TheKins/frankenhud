@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c175" //"r208"	[$WIN32]
+		"xpos"			"c216" //"r208"	[$WIN32]
 		"ypos"			"r48"
 		"wide"			"100"
 		"tall"			"50"
@@ -72,7 +72,7 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"Left"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					

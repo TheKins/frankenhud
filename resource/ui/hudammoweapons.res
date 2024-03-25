@@ -38,15 +38,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"17"
-		"ypos"			"2"
+		"xpos"			"c126"
+		"ypos"			"r42"
 		"zpos"			"0"
-		"wide"			"81"
-		"tall"			"40"
+		"wide"			"82"
+		"tall"			"35"
 		"scaleimage"		"1"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/color_panel_red"
+		"image"			"../hud/color_panel_clear"
 
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"
