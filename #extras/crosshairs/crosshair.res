@@ -1,4 +1,4 @@
-"Resource/UI/HudPlayerClass.res"
+"Resource/HudLayout.res"
 {
 	CustomCrosshair
 	{

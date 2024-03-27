@@ -1,4 +1,5 @@
 #base "../#extras/transparent-viewmodels/transparent_viewmodels.res"
+#base "../#extras/crosshairs/crosshair.res"
 
 "Resource/HudLayout.res"
 {

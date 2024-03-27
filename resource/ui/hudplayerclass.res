@@ -1,5 +1,4 @@
 #base "../../#extras/speedometer/speedometer.res"
-#base "../../#extras/crosshairs/crosshair.res"
 
 "Resource/UI/HudPlayerClass.res"
 {
