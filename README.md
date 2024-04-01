@@ -15,3 +15,9 @@ Installation
 Copy frankenhud-master to your steamapps\common\Team Fortress 2\tf\custom directory.
 
 For additional customization, please check the #extras directory.
+
+Branch Descriptions
+===================
+
+- **master** - Most stable branch with minimal or no issues.
+- **dev** - Development/pre-release branch, contains new changes still under development that will be pushed into the master branch once complete. Expect bugs.
