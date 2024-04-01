@@ -18,10 +18,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"45"
-		"ypos"			"26"
+		"ypos"			"25"
 		"zpos"			"0"
 		"wide"			"34"
-		"tall"			"16"
+		"tall"			"p.339"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
@@ -29,6 +29,7 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
+		"proportionaltoparent" "1"
 		
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"

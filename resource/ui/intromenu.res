@@ -176,8 +176,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
 			"origin_y" "0"
 			"origin_z" "-39"
 			

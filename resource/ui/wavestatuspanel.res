@@ -5,7 +5,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"150"
-		"ypos"			"2"
+		"ypos"			"1"
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"35"
@@ -13,13 +13,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"scaleimage"	"1"
+		"image"			"../hud/color_panel_brown"
+		"alpha"			"200"
 
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
+
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
+		"proportionaltoparent"	"1"
 	}
 	
 	"WaveCountLabel"

@@ -17,9 +17,7 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
 
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"
@@ -41,7 +39,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
 
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"
@@ -63,7 +60,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
 
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"
@@ -106,7 +102,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"		"Right"
+		"textAlignment"		"east"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -148,9 +144,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"34"
-		"xpos_minmode"	"30"
 		"ypos"			"19"
-		"ypos_minmode"	"19"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -244,9 +238,7 @@
 		"ControlName"        "CAvatarImagePanel"
 		"fieldName"                "AvatarImage"
 		"xpos"                        "6"
-		"xpos_minmode"        "6"
-		"ypos"                        "6"        [$WIN32]
-		"ypos"                        "0"        [$X360]
+		"ypos"                        "6"
 		"zpos"                        "99"
 		"wide"                        "11"
 		"tall"                        "11"

@@ -246,7 +246,7 @@
 
 	"CancelButton" 
 	{
-		"ControlName"	"CTFButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"c-35"
 		"ypos"			"271"
@@ -354,8 +354,6 @@
 			"angles_y" "0"
 			"angles_z" "0"
 			"origin_x" "0"
-			"origin_x_hidef" "0"
-			"origin_x_lodef" "0"
 			"origin_y" "0"
 			"origin_z" "0"
 		}

@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c124" //"r224"	[$WIN32]
-		"ypos"			"r102"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos"			"c124" //"r224"
+		"ypos"			"r102"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -74,7 +72,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					

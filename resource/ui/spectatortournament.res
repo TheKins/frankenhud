@@ -103,7 +103,7 @@
 					"ypos"			"4"
 					"wide"			"20"
 					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
+					"image"			"hud_connecting"
 				}
 			}
 			
@@ -443,7 +443,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}

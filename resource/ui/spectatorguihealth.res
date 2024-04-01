@@ -67,7 +67,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labeltext"			"%Health%"
-		"textAlignment"		"left"
+		"textAlignment"		"west"
 		"font"				"HudFontSmallestBold"
 		"fgColor"			"255 255 255 255"
 	}
@@ -83,7 +83,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labeltext"			"%Health%"
-		"textAlignment"		"left"
+		"textAlignment"		"west"
 		"font"				"HudFontSmallestBold"
 		"fgColor"			"0 0 0 255"
 	}
@@ -93,9 +93,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusPlayerLevel"
 		"xpos"			"8"
-		"xpos_minmode"	"0"
-		"ypos"			"9"	[$WIN32]
-		"ypos"			"0"	[$X360]
+		"ypos"			"9"
 		"zpos"			"5"
 		"wide"			"16"
 		"tall"			"12"

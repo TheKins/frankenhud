@@ -13,20 +13,19 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"image"			"../hud/color_panel_brown"
 
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"src_corner_height"	"60"				// pixels inside the image
+		"src_corner_width"	"60"
+			
+		"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
 	}
 
 	"TournamentSetupLabel"
 	{	
 		"ControlName"		"Label"
-		"fieldName"		"TournamentLabel"
+		"fieldName"		"TournamentSetupLabel"
 		"font"			"HudFontSmallBold"
 		"xpos"			"8"
 		"ypos"			"0"

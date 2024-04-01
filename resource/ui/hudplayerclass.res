@@ -35,7 +35,7 @@
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"c-195"
 		"ypos"			"r83"
-		"zpos"			"3"
+		"zpos"			"2"
 		"wide"			"45"
 		"tall"			"45"
 		"visible"		"1"

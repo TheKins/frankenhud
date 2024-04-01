@@ -54,7 +54,7 @@
 			"zpos"				"4"	
 			"wide"				"f-2"
 			"tall"				"f-2"	
-			"visible_minmode"	"0"
+			"visible"			"1"
 			"enabled"			"1"
 			"scaleImage"		"1"
 			"color_active"		"TimerProgress.Active"

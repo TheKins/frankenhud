@@ -433,7 +433,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"TFFatLineBorder"
+		"border"		"MainMenuBGBorder"
 		
 		"TipSubLabel"
 		{
@@ -480,7 +480,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c148"
+		"xpos"			"rs1-170"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"32"
@@ -583,7 +583,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
+		"xpos"			"rs1-125"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -656,7 +656,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
+		"xpos"			"rs1-80"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -729,7 +729,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c268"
+		"xpos"			"rs1-35"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
@@ -797,7 +797,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c5"
+		"xpos"			"c45"
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"300"
@@ -1391,7 +1391,6 @@
 		"visible"		"1"
 
 		"image"			"../hud/color_panel_brown_opaque"
-		"image_lodef"	"../hud/color_panel_brown_opaque"
 		"alpha"			"253"
 
 		"src_corner_height"		"60"				// pixels inside the image
@@ -2200,7 +2199,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown_opaque"
-		"image_lodef"	"../hud/color_panel_brown_opaque"
 
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"

@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"0"
-		"xpos"			"10"	[$WIN32]
-		"ypos"			"r107"	[$WIN32]
+		"xpos"			"10"
+		"ypos"			"r107"
 		"wide"			"100"
 		"tall"			"100"
 		"MeterFG"		"White"
@@ -28,9 +28,7 @@
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"			
 	}
 	
 	"ItemEffectMeterLabel"
@@ -68,7 +66,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
@@ -88,10 +86,8 @@
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"textAlignment_minmode"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
-		"font_minmode"					"TFFontSmall"
 	}
 }
