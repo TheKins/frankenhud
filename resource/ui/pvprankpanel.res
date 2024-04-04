@@ -364,7 +364,7 @@
 
 					"if_mini"
 					{
-						"xpos"		"rs1-40"
+						"xpos"		"rs1-20"
 					}
 				}
 
