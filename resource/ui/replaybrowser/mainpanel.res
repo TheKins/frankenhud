@@ -44,10 +44,11 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}	
+			
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
@@ -56,9 +57,16 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-	}				
+		"image"			"../hud/color_panel_brown_opaque"
+
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
+
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
+		"proportionaltoparent"	"1"
+	}
+
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -67,10 +75,10 @@
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
+		"fillcolor"		"244 230 195 255"
 		"scaleImage"	"1"
 	}				
 	
@@ -90,15 +98,15 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"34"
 			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"10"
+			"tall"			"p0.001"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/replaybrowser_solidline"
+			"fillcolor"		"244 230 195 255"
 			"scaleImage"	"1"
-		}				
+		}			
 		
 		"tabskv"
 		{
@@ -127,7 +135,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
+		"labelText"		"#fh_Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"

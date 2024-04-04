@@ -133,7 +133,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
+		"labelText"		"#fh_Back"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -142,16 +142,6 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"BackButton_Shortcut"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton_Shortcut"
-		"xpos"			"9999"
-		"labelText"		"&Q"
-		"command"		"back"
-		"visible"		"1"
 	}
 	
 	"NotificationsPresentPanel"

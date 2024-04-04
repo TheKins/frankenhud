@@ -817,10 +817,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-225"
+		"xpos"					"cs-0.5"
 		"ypos"					"238"
-		"wide"					"450"
-		"tall"					"218"
+		"wide"					"480"
+		"tall"					"230"
 	}
 
 	PVEWinPanel
@@ -983,9 +983,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-160"
-		"ypos"					"80"
+		"ypos"					"60"
 		"wide"					"320"
-		"tall"					"100"
+		"tall"					"130"
 	}
 
 
@@ -1436,7 +1436,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-310"
+		"xpos"				"c-315"
 		"ypos"				"r110"
 		"wide"				"100"
 		"tall"				"100"

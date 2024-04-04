@@ -85,17 +85,17 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"c105"
+		"xpos"			"c95"
 		"ypos"			"r105"
 		"zpos"			"6"
-		"wide"			"100"
+		"wide"			"110"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Continue"
+		"labelText"		"#fh_Continue"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -103,16 +103,6 @@
 		"command"		"okay"
 		"default"		"1"
 		"font"			"MenuSmallFont"
-	}
-
-	"ok_Shortcut"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ok_Shortcut"
-		"xpos"			"9999"
-		"labelText"		"&E"
-		"command"		"okay"
-		"visible"		"1"
 	}
 	
 	"MenuBG"

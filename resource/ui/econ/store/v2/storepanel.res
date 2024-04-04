@@ -136,7 +136,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
+		"labelText"		"#fh_Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -145,17 +145,7 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-
-	"CloseButton_Shortcut"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton_Shortcut"
-		"xpos"			"9999"
-		"labelText"		"&Q"
-		"command"		"close"
-		"visible"		"1"
-	}	
+	}		
 	
 	"armory_panel"
 	{
@@ -186,7 +176,7 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
-		"xpos"			"c275"
+		"xpos"			"c276"
 		"ypos"			"437"
 		"zpos"			"5"
 		"wide"			"25"
@@ -200,9 +190,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
-		"textAlignment"		"north-west"
+		"textAlignment"		"west"
 		"xpos"				"c304"
-		"ypos"				"440"
+		"ypos"				"400"
 		"zpos"				"5"
 		"wide"				"70"
 		"tall"				"100"
@@ -226,7 +216,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_Checkout"
+		"labelText"		"#fh_Checkout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
