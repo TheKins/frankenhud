@@ -421,13 +421,12 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 150"
-		"fillcolor_lodef"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"TopPlayerLabel"
+		"fieldName"		"TopPlayersLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"45"
 		"ypos"			"100"

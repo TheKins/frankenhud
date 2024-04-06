@@ -24,7 +24,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-140"
-		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r75"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
@@ -54,7 +54,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c-140"
-		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r75"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
@@ -78,7 +78,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"c-140"
-		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r75"
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
@@ -236,7 +236,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
-		"ypos"			"r142"	[$WIN32]
+		"ypos"			"r142"
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
@@ -251,12 +251,12 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-20"
-		"ypos"			"r52"	[$WIN32]
+		"ypos"			"r52"
 		"zpos"			"10"
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"0"
-		"enabled"		"01"
+		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_blue"
 		"scaleImage"	"1"
 		
@@ -275,10 +275,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r26"	[$WIN32]
+		"xpos"			"c-70"
+		"ypos"			"r25"
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
+		"wide"			"140"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -309,14 +309,14 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-42"	[$WIN32]
-		"ypos"			"r19"	[$WIN32]
+		"xpos"			"c-42"
+		"ypos"			"r19"
 		"zpos"			"3"
-		"wide"			"84"	[$WIN32]
-		"tall"			"17"	[$WIN32]
+		"wide"			"84"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"../hud/color_panel_browner"
 		"scaleImage"	"1"	
 		
 		"src_corner_height"	"60"				// pixels inside the image
@@ -346,7 +346,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-160"
-		"ypos"			"r72"	[$WIN32]
+		"ypos"			"r72"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -381,7 +381,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c-18"
-		"ypos"			"r72"	[$WIN32]
+		"ypos"			"r72"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -416,7 +416,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-30"
-		"ypos"			"r70"	[$WIN32]
+		"ypos"			"r70"
 		"zpos"			"5"
 		"wide"			"60"
 		"tall"			"60"
@@ -471,7 +471,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-20"
-		"ypos"			"r67"	[$WIN32]
+		"ypos"			"r67"
 		"zpos"			"10"
 		"wide"			"40"
 		"tall"			"40"

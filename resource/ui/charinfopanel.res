@@ -57,7 +57,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown_opaque"
-		"image_lodef"	"../hud/color_panel_brown_opaque"
 
 		"src_corner_height"		"60"				// pixels inside the image
 		"src_corner_width"		"60"
@@ -125,16 +124,16 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-295"
-		"ypos"			"437"
+		"ypos"			"rs1-18"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
+		"labelText"		"#fh_Back"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -143,16 +142,6 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"BackButton_Shortcut"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton_Shortcut"
-		"xpos"			"9999"
-		"labelText"		"&Q"
-		"command"		"back"
-		"visible"		"1"
 	}
 	
 	"NotificationsPresentPanel"

@@ -74,6 +74,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"HudFontSpectator"
+		"fgcolor_override"		"White"
 
 		if_mvm
 		{
@@ -95,6 +96,7 @@
 		"labelText"		""
 		"textAlignment"		"center"
 		"font"			"HudFontSpectator"
+		"fgcolor_override"		"White"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -114,6 +116,7 @@
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
+		"fgcolor_override"		"White"
 	}
 	"TipLabel"
 	{

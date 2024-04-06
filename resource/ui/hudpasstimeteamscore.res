@@ -62,7 +62,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-110"
+		"xpos"			"c-99"
 		"ypos"			"r67"
 		"zpos"			"8"
 		"wide"			"75"
@@ -113,7 +113,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c30"
+		"xpos"			"c29"
 		"ypos"			"r66"
 		"zpos"			"7"
 		"wide"			"75"

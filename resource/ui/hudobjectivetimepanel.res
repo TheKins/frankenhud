@@ -5,16 +5,13 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
-		"ypos"				"-12"	[$WIN32]
+		"ypos"				"-12"
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
+		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
@@ -89,22 +86,14 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 	}			
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
 	}
 	"OvertimeLabel"
 	{
@@ -129,14 +118,8 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"9999"	
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
 	}
 	"SuddenDeathLabel"
 	{
@@ -155,22 +138,14 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 	}			
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
 	}	
 	"SetupLabel"
 	{
@@ -189,42 +164,24 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 	}	
 	"SetupBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
 	}
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"6"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -233,23 +190,16 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"26"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"26"
 		"ypos"			"08"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"3"
 		"wide"			"58"
 		"tall"			"14"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	

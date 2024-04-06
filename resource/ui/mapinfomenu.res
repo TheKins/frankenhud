@@ -87,21 +87,21 @@
 		"scaleImage"	"1"		
 	}
 
-	"MapInfoContinue"
+	"fh_Continue"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue"
-		"xpos"			"c105"
+		"fieldName"		"fh_Continue"
+		"xpos"			"c95"
 		"ypos"			"r105"
 		"zpos"			"6"
-		"wide"			"100"
+		"wide"			"110"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"#TF_Continue"
+		"labelText"		"#fh_Continue"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -110,31 +110,21 @@
 		"default"		"1"
 		"font"			"MenuSmallFont"
 	}
-
-	"MapInfoContinue_Shortcut"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue_Shortcut"
-		"xpos"			"9999"
-		"labelText"		"&E"
-		"command"		"continue"
-		"visible"		"1"
-	}
 	
 	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-50"
+		"xpos"			"cs-0.5"
 		"ypos"			"r105"
 		"zpos"			"6"
-		"wide"			"100"
+		"wide"			"130"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_WatchIntro"
+		"labelText"		"#fh_WatchMovie"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -151,13 +141,13 @@
 		"xpos"			"c-205"
 		"ypos"			"r105"
 		"zpos"			"6"
-		"wide"			"100"
+		"wide"			"110"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"labelText"		"#fh_Back"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -194,5 +184,14 @@
 		"xpos"					"9999"
 		"visible"				"0"
 		"enabled"				"0"
+	}
+
+	"MapInfoContinue"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }

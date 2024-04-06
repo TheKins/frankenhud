@@ -2,7 +2,7 @@ FRANKENHUD
 ==========
 A user-interface mod for Team Fortress 2.
 
-[Screenshot Gallery](https://imgur.com/a/gqWvSVZ)
+[Screenshot Gallery](https://imgur.com/a/O8C2vRd)
 
 [Old Steam Group](http://steamcommunity.com/groups/frankenhud)
 

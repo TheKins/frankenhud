@@ -948,7 +948,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3378,10 +3377,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_brown_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 		TFFatLineBorder
 		{
@@ -3400,10 +3399,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_red_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -3411,10 +3410,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_red_opaque"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 		TFFatLineBorderRedBG
 		{
@@ -3433,10 +3432,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_red_more_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -3455,10 +3454,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_blu_more_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 		TFFatLineBorderBlueBGOpaque
 		{
@@ -3466,10 +3465,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_blu_opaque"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 		TFFatLineBorderClearBG
 		{
@@ -3477,10 +3476,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_clear"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
 
 		ToolTipBorder
@@ -5039,11 +5038,22 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"image"					"../hud/color_panel_brown_opaque"
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
+		}
+		MainMenuBGBorder_NoOutline
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_brown_opaque"
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorderAlpha
 		{
@@ -5809,65 +5819,13 @@ Scheme
 		{
 			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
-			"english"
+			"russian"
 			{
-				"range" "0x0000 0x2014"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
+				"range" "0x0000 0xFFFF"
 			}
 		}
 		"5"

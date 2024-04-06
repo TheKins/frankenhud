@@ -1,9 +1,9 @@
-"Resource/UI/replaybrowser/mainpanel.res"
+"Resource/UI/StorePanel.res"
 {
-	"ReplayBrowser"
+	"store_panel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ReplayBrowser"
+		"fieldName"		"store_panel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -19,7 +19,7 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"			"#Replay_Replay"
+		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
@@ -44,8 +44,8 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}	
-			
+	}
+				
 	"BackgroundFooter"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -65,8 +65,8 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 		"proportionaltoparent"	"1"
-	}
-
+	}		
+		
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -86,12 +86,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
+		"tabxindent"	"10"
+		"tabxdelta"		"3"
+		"tabxfittotext"	"1"
 		"tabheight"		"20"
+		"yoffset"		"14"
 		"transition_time" "0"
-		"yoffset"	"14"
 		
 		"HeaderLine"
 		{
@@ -106,30 +106,31 @@
 			"enabled"		"1"
 			"fillcolor"		"244 230 195 255"
 			"scaleImage"	"1"
-		}			
+		}				
 		
 		"tabskv"
 		{
-			"textinsetx"		"40"
-			"font"				"HudFontMediumSmallBold"
+			"textinsetx"		"6"
+			"textAlignment"		"center"
+			"font"				"HudFontSmallBold"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"
 			"paintbackground"	"0"
-			"activeborder_override"	"ReplayOutlinedGreyBox"
-			"normalborder_override" "ReplayOutlinedDullGreyBox"
+			"activeborder_override"	"OutlinedGreyBox"
+			"normalborder_override" "OutlinedDullGreyBox"
 		}
 	}
 	
-	"BackButton"
+	"CloseButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
+		"fieldName"		"CloseButton"
 		"xpos"			"c-295"
-		"ypos"			"437"
+		"ypos"			"rs1-18"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -140,9 +141,90 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"back"
+		"default"		"1"
+		"Command"		"close"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}		
+	
+	"armory_panel"
+	{
+		"ControlName"		"CArmoryPanel"
+		"fieldName"			"armory_panel"
+		"xpos"				"0"
+		"ypos"				"30"
+		"wide"				"f0"
+		"tall"				"390"
+		"zpos"				"500"
+		"visible"			"0"
+	}
+
+	"NotificationsPresentPanel"
+	{
+		"ControlName"	"CNotificationsPresentPanel"
+		"fieldName"		"NotificationsPresentPanel"
+		"xpos"			"r200"
+		"ypos"			"10"
+		"zpos"			"10000"
+		"wide"			"190"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+	}
+
+	"SupportCommunityMapMakersCheckButton"
+	{
+		"ControlName"	"CheckButton"
+		"fieldName"		"SupportCommunityMapMakersCheckButton"
+		"xpos"			"c276"
+		"ypos"			"437"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"font"			"HudFontSmall"
+		"labelText"		""
+		"visible"		"0"
+	}
+
+	"SupportCommunityMapMakersLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"SupportCommunityMapMakersLabel"
+		"textAlignment"		"west"
+		"xpos"				"c304"
+		"ypos"				"400"
+		"zpos"				"5"
+		"wide"				"70"
+		"tall"				"100"
+		"font"				"HudFontSmallest"
+		"wrap"				"1"
+		"labelText"			"#Store_ConfirmStampDonationAddTitle"
+		"visible"			"0"
+	}
+	
+	"CheckoutButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CheckoutButton"
+		"xpos"			"c170"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"130"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#fh_Checkout"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
+	
 }

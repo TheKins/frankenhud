@@ -5,13 +5,12 @@
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"0"
-		"ypos"				"13"
+		"ypos"				"6"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
-		
 		"verbose"			"1"
 	}
 	
@@ -79,15 +78,15 @@
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/tournament_panel_brown"
-		
-		"scaleImage"		"1"
-		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"image"			"../hud/color_panel_brown"
+		"alpha"			"200"
+
+		"src_corner_height"		"60"				// pixels inside the image
+		"src_corner_width"		"60"
+
+		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
+		"proportionaltoparent"	"1"
 	}
 	
 	"MvMPlayerList"
@@ -130,13 +129,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
+			"image"			"../hud/color_panel_brown"
+			"alpha"			"200"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"60"				// pixels inside the image
+			"src_corner_width"		"60"
+
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"
+			"proportionaltoparent"	"1"
 		}
 		
 		"CreditsLabel"

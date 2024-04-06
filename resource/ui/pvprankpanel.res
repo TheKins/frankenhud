@@ -361,6 +361,11 @@
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+
+					"if_mini"
+					{
+						"xpos"		"rs1-1"
+					}
 				}
 
 				"ProgressBarsContainer"

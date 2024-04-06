@@ -58,7 +58,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
@@ -100,7 +100,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
-			"xpos"			"40"
+			"xpos"			"38"
 			"ypos"			"162"
 			"zpos"			"1"
 			"wide"			"252"
@@ -110,16 +110,17 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
-			"textAlignment"		"North-West"
+			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			"fgcolor_override"		"White"
 		}
 
 		"FreezePanelHealth"
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"8"
+			"xpos"			"5"
 			"ypos"			"160"
 			"zpos"			"1"
 			"wide"			"81"
@@ -135,10 +136,10 @@
 
 		"FreezeLabelKiller"
 		{
-			"ControlName"	"Label"
+			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
-			"xpos"			"61"
+			"xpos"			"50"
 			"ypos"			"173"
 			"zpos"			"5"
 			"wide"			"252"
@@ -148,7 +149,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"
-			"textAlignment"		"Left"
+			"textAlignment"	"west"
+			"fgcolor_override"		"White"
 		}
 
 		"AvatarImage"
@@ -228,6 +230,7 @@
 				"enabled"		"1"
 				"labelText"		"%nemesisname%"
 				"textAlignment"		"west"
+				"fgcolor"		"White"
 			}
 			"NemesisLabel2"
 			{
@@ -245,6 +248,7 @@
 				"enabled"		"1"
 				"labelText"		"%nemesisadvice%"
 				"textAlignment"		"west"
+				"fgcolor"		"White"
 			}
 		}
 	}

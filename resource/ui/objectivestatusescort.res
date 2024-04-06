@@ -550,7 +550,6 @@
 				"fieldName"		"Capping"	
 				"xpos"			"8"
 				"ypos"			"8"
-				"ypos_minmode"		"8"
 				"zpos"			"1"
 				"wide"			"20"
 				"tall"			"20"

@@ -50,7 +50,6 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"image"			"../hud/color_panel_brown_opaque"
-			"image_lodef"	"../hud/color_panel_brown_opaque"
 
 			"src_corner_height"		"60"				// pixels inside the image
 			"src_corner_width"		"60"
@@ -280,10 +279,10 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 
-				"border"		"OuterShadowBorderThin"
+				"border"		""
 			}
 
 			"BGPanel"
@@ -298,7 +297,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"ReplayDefaultBorder"
+				"border"		"MainMenuBGBorder"
 			}
 
 			"QueueLogoButton"
@@ -505,10 +504,10 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 
-				"border"		"OuterShadowBorderThin"
+				"border"		""
 			}
 
 			"BGPanel"
@@ -523,7 +522,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"ReplayDefaultBorder"
+				"border"		"MainMenuBGBorder"
 			}
 
 			"PromptText"

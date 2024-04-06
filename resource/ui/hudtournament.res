@@ -181,7 +181,7 @@
 					"ypos"			"4"
 					"wide"			"20"
 					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
+					"image"			"hud_connecting"
 				}
 
 				if_competitive
@@ -190,7 +190,7 @@
 					"ypos"			"4"
 					"wide"			"p0.4"
 					"tall"			"p0.6"
-					"image"			"../vgui/hud_connecting"
+					"image"			"hud_connecting"
 					"proportionaltoparent" "1"
 				}
 
@@ -200,7 +200,7 @@
 					"ypos"			"4"
 					"wide"			"20"
 					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
+					"image"			"hud_connecting"
 				}
 			}
 			
@@ -278,13 +278,13 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
+				"image"			"../hud/color_panel_brown"
 
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
+				"src_corner_height"	"60"				// pixels inside the image
+				"src_corner_width"	"60"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"6"
 				
 				if_mvm
 				{
@@ -444,14 +444,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
-		"proportionaltoparent"	"1"
+		"image"			"../hud/color_panel_brown"
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"src_corner_height"	"60"				// pixels inside the image
+		"src_corner_width"	"60"
+			
+		"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"
 		
 		if_mvm
 		{
@@ -967,11 +966,11 @@
 		"enabled"		"1"
 		"image"			"../HUD/color_panel_red"
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
+		"src_corner_height"	"60"				// pixels inside the image
+		"src_corner_width"	"60"
 		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"	
 		"proportionaltoparent"	"1"
 
 		if_competitive
