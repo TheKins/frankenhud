@@ -948,7 +948,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -5820,65 +5819,13 @@ Scheme
 		{
 			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
-			"english"
+			"russian"
 			{
-				"range" "0x0000 0x2014"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
+				"range" "0x0000 0xFFFF"
 			}
 		}
 		"5"
