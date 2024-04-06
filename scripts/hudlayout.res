@@ -985,7 +985,7 @@
 		"xpos"					"c-160"
 		"ypos"					"60"
 		"wide"					"320"
-		"tall"					"130"
+		"tall"					"100"
 	}
 
 
@@ -1006,7 +1006,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-160"
-		"ypos"					"75"
+		"ypos"					"60"
 		"wide"					"320"
 		"tall"					"100"
 	}
