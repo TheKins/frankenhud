@@ -982,9 +982,9 @@
 		"fieldName"				"HudTeamGoal"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"cs-0.5"
 		"ypos"					"60"
-		"wide"					"320"
+		"wide"					"300"
 		"tall"					"100"
 	}
 
@@ -1005,9 +1005,9 @@
 		"fieldName"				"HudTeamSwitch"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"cs-0.5"
 		"ypos"					"60"
-		"wide"					"320"
+		"wide"					"300"
 		"tall"					"100"
 	}
 
