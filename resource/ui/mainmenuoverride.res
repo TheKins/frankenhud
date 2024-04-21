@@ -216,21 +216,25 @@
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
+		if_christmas_0
+		{
+			"image"		"../console/background_xmas2020_widescreen"
+		}
+		if_christmas_1
 		{
 			"image"		"../console/background_xmas2023_widescreen"
-		}		
+		}	
 	}
 					
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-262"
-		"ypos"			"44"
+		"xpos"			"c-295"
+		"ypos"			"30"
 		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"47"
+		"wide"			"256"
+		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
