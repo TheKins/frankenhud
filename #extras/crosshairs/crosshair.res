@@ -44,10 +44,9 @@
 		//=========================================================================
 		// CROSSHAIR COLOR
 		//-------------------------------------------------------------------------
-		// The color is a R. (red) G. (green) B. (blu) A. (alpha) code
-		// Adjust each value to get the desired color
+		// The color of the crosshair can be changed in resource/clientscheme.res
 		//=========================================================================
 		
-		"fgcolor"	"255 255 255 255"
+		"fgcolor"	"Crosshair"
 	}
 }
