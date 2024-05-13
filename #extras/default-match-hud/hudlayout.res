@@ -1,4 +1,5 @@
 #base "../#extras/transparent-viewmodels/transparent_viewmodels.res"
+#base "../#extras/crosshairs/crosshair.res"
 
 "Resource/HudLayout.res"
 {
@@ -41,11 +42,12 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-100"
-		"ypos"	"r48"
+		"ypos"	"0"
 		"wide"	"200"
-		"tall"	"55"
-
-		"blue_active_xpos"			"2"
+		"tall"	"160"
+		
+		"blue_active_xpos"			"16"
+	
 		"red_active_xpos"			"106"
 	}
 
@@ -78,8 +80,8 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"	"c134"
-		"ypos"	"r9"
+		"xpos"			"c134"
+		"ypos"			"r9"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"68"
 		"tall"			"8"
@@ -92,8 +94,8 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"	"c134" //"r246"
-		"ypos"	"r9"
+		"xpos"			"c134" //"r246"
+		"ypos"			"r9"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"68"
 		"tall"			"8"
@@ -205,8 +207,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"c-250" //c0
-		"ypos"	"320"
+		"xpos"		"c-250" //c0
+		"ypos"		"320"
 		"wide"		"500"
 		"tall"		"200"
 	}
@@ -429,15 +431,15 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "18"
+		"ypos"	 "20"
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "10"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"LineHeight"	  "14"
+		"LineSpacing"	  "0"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 
 		"TextFont"		"Default"
@@ -447,8 +449,8 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"
-		"LocalBackgroundColor"	"245 229 196 200"
+		"BaseBackgroundColor"	"46 43 42 200"
+		"LocalBackgroundColor"	"255 255 255 200"
 	}
 
 	HudVehicle
@@ -816,10 +818,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"245"
-		"wide"					"450"
-		"tall"					"218"
+		"xpos"					"cs-0.5"
+		"ypos"					"238"
+		"wide"					"480"
+		"tall"					"230"
 	}
 
 	PVEWinPanel
@@ -839,7 +841,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-133"
-		"ypos"					"10"
+		"ypos"				"10"
 		"wide"					"266"
 		"tall"					"120"
 	}
@@ -981,9 +983,9 @@
 		"fieldName"				"HudTeamGoal"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"80"
-		"wide"					"320"
+		"xpos"					"cs-0.5"
+		"ypos"					"60"
+		"wide"					"300"
 		"tall"					"100"
 	}
 
@@ -1004,9 +1006,9 @@
 		"fieldName"				"HudTeamSwitch"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"wide"					"320"
+		"xpos"					"cs-0.5"
+		"ypos"					"60"
+		"wide"					"300"
 		"tall"					"100"
 	}
 
@@ -1435,7 +1437,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-310"
+		"xpos"				"c-315"
 		"ypos"				"r110"
 		"wide"				"100"
 		"tall"				"100"
