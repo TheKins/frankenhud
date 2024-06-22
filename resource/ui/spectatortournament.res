@@ -268,6 +268,7 @@
 			"tall"					"180"
 	
 			"team1_player_delta_x"			"52"
+			"team1_player_delta_y"			"0"
 		}		
 	}
 
