@@ -389,8 +389,8 @@
 		"fieldName"		"ServerLabel"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%server%"
-		"textAlignment"		"center"
-		"xpos"			"150"
+		"textAlignment"		"west"
+		"xpos"			"12"
 		"ypos"			"357"
 		"wide"			"300"
 		"tall"			"20"
@@ -421,14 +421,10 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"5"
-		"xpos_lodef"	"10"
-		"xpos_hidef"	"30"
 		"ypos"			"66"
 		"zpos"			"20"
 		"wide"			"290"
-		"wide_lodef"	"267"
-		"wide_hidef"	"277"
-		"tall"			"280"
+		"tall"			"282"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -447,14 +443,10 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"305"
-		"xpos_lodef"	"284"
-		"xpos_hidef"	"314"
 		"ypos"			"66"
 		"zpos"			"20"
 		"wide"			"290"
-		"wide_lodef"	"267"
-		"wide_hidef"	"277"
-		"tall"			"280"
+		"tall"			"282"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -473,14 +465,10 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"299"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"2"
-		"tall"			"292"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
+		"tall"			"278"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -502,7 +490,7 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"12"
-		"ypos"			"357"
+		"ypos"			"348"
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
@@ -510,7 +498,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+
+		if_mvm
+		{
+			"ypos" "218"
+		}
+	}
 	"SpectatorsInQueue"
 	{
 		"ControlName"		"CExLabel"
@@ -519,7 +512,6 @@
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"12"
-		"xpos_hidef"	"135"
 		"ypos"			"348"
 		"zpos"			"4"
 		"wide"			"424"
@@ -533,7 +525,7 @@
 		{
 			"visible"		"0"
 		}
-	}		
+	}
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
