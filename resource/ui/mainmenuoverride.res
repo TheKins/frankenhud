@@ -407,7 +407,7 @@
 
 	"RankBorder"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
 		"xpos"			"c-296"
 		"ypos"			"94"
@@ -415,15 +415,8 @@
 		"wide"			"260"
 		"tall"			"120"
 		"visible"		"1"
-		"image"			"../hud/color_panel_brown_opaque"
-		"alpha"			"253"
-
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
-		"proportionaltoparent"	"1"
+		"paintBorder"	"1"
+		"border"		"MainMenuBGBorder"
 	}
 	
 	"TooltipPanel"
@@ -494,12 +487,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"QuickplayButton"
-		"navRight"		"Notifications_Panel"
-		"navToRelay"	"Notifications_ShowButtonPanel_SB"
-		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1317,11 +1304,6 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
-		"navUp"			"ReplayBrowserButton"
-		"navDown"		"QuitButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1382,28 +1364,6 @@
 		"tall"			"f0"
 		"visible"		"0"
 	}
-	
-	"FriendsBackground"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"FriendsBackground"
-		"xpos"			"c-296"
-		"ypos"			"230"
-		"zpos"			"-100"
-		"wide"			"260"
-		"tall"			"180"
-		"visible"		"1"
-
-		"image"			"../hud/color_panel_brown_opaque"
-		"alpha"			"253"
-
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
-		"proportionaltoparent"	"1"
-	}
 
 	"FriendsContainer"
 	{
@@ -1416,7 +1376,7 @@
 		"tall"			"180"
 		"visible"		"1"
 
-		"border"		""
+		"border"		"MainMenuBGBorder"
 
 		"TitleLabel"
 		{
@@ -1924,11 +1884,6 @@
 		"tall"			"25"
 		"visible"		"1"
 
-		"navLeft"		"ResumeGameButton"
-		"navRight"		"CallVoteButton"
-		"navDown"		"QuickplayChangeButton"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1993,11 +1948,6 @@
 		"tall"			"25"
 		"visible"		"1"
 
-		"navLeft"		"ReportPlayerButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"MutePlayersButton"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2059,11 +2009,6 @@
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
-
-		"navLeft"		"CallVoteButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"RequestCoachButton"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -2128,11 +2073,6 @@
 		"tall"			"25"
 		"visible"		"1"
 
-		"navLeft"		"MutePlayersButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navDown"		"QuickplayChangeButton"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2187,14 +2127,8 @@
 	
 	"BackgroundFooter"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
-		"xpos"			"9999"
-	}				
-	"BottomBackground"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"BottomBackground"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"-50"
@@ -2202,27 +2136,21 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown_opaque"
-
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-		"proportionaltoparent"	"1"
-	}
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+	}				
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"-5"
+		"zpos"			"-5-"
 		"wide"			"f0"
-		"tall"			"p0.001"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"244 230 195 255"
+		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}
 
@@ -2282,7 +2210,7 @@
 		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../vgui/new"
+		"image"			"new"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -2450,10 +2378,6 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"view_newuser_forums"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"QuitButton"
-		"navRight"		"AchievementsButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

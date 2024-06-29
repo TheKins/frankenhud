@@ -44,10 +44,11 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}
+		
 	"BackgroundFooter"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
@@ -56,15 +57,10 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown_opaque"
-
-		"src_corner_height"		"60"				// pixels inside the image
-		"src_corner_width"		"60"
-
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
-		"proportionaltoparent"	"1"
-	}				
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+	}
+			
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -73,13 +69,13 @@
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"p0.001"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"244 230 195 255"
+		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
-	
+	}			
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -96,15 +92,15 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"34"
+			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"p0.001"
+			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"244 230 195 255"
+			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}				
+		}			
 		
 		"tabskv"
 		{
@@ -148,7 +144,7 @@
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"r200"
+		"xpos"			"r185"
 		"ypos"			"10"
 		"zpos"			"10000"
 		"wide"			"190"

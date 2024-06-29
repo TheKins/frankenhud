@@ -418,7 +418,7 @@
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
-						"border"		""
+						"border"		"InnerShadowBorderThin"
 					}
 				}
 			}
