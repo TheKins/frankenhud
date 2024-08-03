@@ -50,3 +50,10 @@ event HudHealthDyingPulseStop
 
 	Animate PlayerStatusHealthValueTargetID	FgColor		"255 255 255 255"		Accel 0.0 0.0	
 }
+
+// Fix lingering health animations
+event CompetitiveGame_RestoreChatWindow
+{
+	RunEvent HudHealthDyingPulseStop			0.1
+	RunEvent HudHealthBonusPulseStop			0.1
+}
