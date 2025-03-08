@@ -45,7 +45,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-		
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -60,7 +60,7 @@
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 	}
-			
+
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -74,8 +74,8 @@
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}			
-	
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -92,7 +92,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"20"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
@@ -170,7 +170,7 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
-		"xpos"			"c276"
+		"xpos"			"c170"
 		"ypos"			"437"
 		"zpos"			"5"
 		"wide"			"25"
@@ -184,9 +184,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
-		"textAlignment"		"west"
-		"xpos"				"c304"
-		"ypos"				"400"
+		"textAlignment"		"north-west"
+		"xpos"				"c100"
+		"ypos"				"435"
 		"zpos"				"5"
 		"wide"				"70"
 		"tall"				"100"
@@ -210,11 +210,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#fh_Checkout"
+		"labelText"		"#Store_Checkout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"

@@ -22,7 +22,7 @@
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
+		"titletextinsetY"	"10"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
@@ -45,7 +45,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-		
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -60,7 +60,7 @@
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 	}
-			
+
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -74,7 +74,7 @@
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}			
+	}
 
 	"Sheet"
 	{
@@ -83,16 +83,16 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"20"
+		"tabheight"		"25"
 		"transition_time" "0"
 		"yoffset"	"14"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"25"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
@@ -100,8 +100,8 @@
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}			
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
@@ -114,7 +114,7 @@
 			"normalborder_override" "OutlinedDullGreyBox"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -139,12 +139,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"r185"
+		"xpos"			"r200"
 		"ypos"			"10"
 		"zpos"			"10000"
 		"wide"			"190"

@@ -18,19 +18,19 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
+
 		"title"			"#Replay_Replay"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
+		"titletextinsetY"	"10"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -45,7 +45,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-		
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -60,7 +60,7 @@
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 	}
-			
+
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -74,8 +74,8 @@
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
-	
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -83,25 +83,25 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"20"
+		"tabheight"		"25"
 		"transition_time" "0"
 		"yoffset"	"14"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"25"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
+			"image"			"replay/replaybrowser_solidline"
 			"scaleImage"	"1"
-		}			
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
@@ -114,16 +114,16 @@
 			"normalborder_override" "ReplayOutlinedDullGreyBox"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-295"
-		"ypos"			"437"
+		"ypos"			"rs1-18"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -138,5 +138,5 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 }
